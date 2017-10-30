@@ -5,7 +5,7 @@ Here are the important points for Project #1
 - You will complete the project in pairs. 
 - You will be assigned a private GitHub repo with your project partner. Each partner is required to contribute to the work.
 - This project is to be completed using PSIM.
-- At the end of the project, you are required to submit a project report as well as your simulation files.
+- At the end of the project, you are required to submit a project report (in PDF) as well as your simulation files.
 - Reports will be checked using Turnitin, and copying will not be tolerated.
 - No reports and commits will be accepted after the deadline.
 
@@ -18,7 +18,6 @@ The project will be evaluated using the following guideline:
 **Report Quality:15%:** Text explaining your design decisions, quality of your figures, citing relevant studies and your conclusion section.
 
 **Technical Level:65%:** The detail level of your simulations and your conclusions.
-
 
 ## Number of Commits:
 
