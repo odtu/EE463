@@ -10,7 +10,7 @@
 | 6       	| [Hakan Saraç](http://github.com/hakansrc)  	| [Ceren](http://github.com/cereny)           	|
 | 7       	| [Celal](http://github.com/celalkavlak)        	| [Olgun](http://github.com/olgunerdogan)           	|
 | 8       	| [Özgür Yazıcı](http://github.com/ozgur-yazici) 	| [Mert Karaçelebi](http://github.com/mertkaracelebi) 	|
-| 9       	| [Ayberk Kaan](http://github.com/aynberkkaanfilik)  	| [Tuna](http://github.com/tunayildiz)            	|
+| 9       	| [Ayberk Kaan](http://github.com/ayberkkaanfilik)  	| [Tuna](http://github.com/tunayildiz)            	|
 | 10      	| [Talgat](http://github.com/talgat-buzurkanov)       	| [Yusuf Basri](http://github.com/yusufbyilmaz)     	|
 | 11      	| [Emin](http://github.com/emincinalioglu)         	| [Tugay](http://github.com/tugaykarakaya)           	|
 | 12      	| [Özgür Durdu](http://github.com/ozgurdurdu)  	| [Uğur Can](http://github.com/ugurc)        	|
