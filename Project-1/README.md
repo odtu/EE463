@@ -30,6 +30,8 @@ Compare the results and comment on the differences between different types of lo
 in the question. Find both a discrete diode and a single phase diode
 rectifier module. In your report, state their product codes and provide their important parameters from the datasheet. Make a comparison between these two possible choices (using discrete diodes or rectifier module).
 
+**Hint:** When you need to find a commercial product, you can search the database of “Digikey”, which is a big retailer for electronic components, from [**https://www.digikey.com/**](https://www.digikey.com/) *. Alternatively, you can search other big retailers such as Farnell and Mouser.*
+
 **2.3.** Assume an RC loaded rectifier with R = 100 Ω. Find the required
 capacitance value which yields an output voltage ripple smaller than 20%
 of the average output voltage. Choose also a commercial capacitor
@@ -63,8 +65,6 @@ voltage.
 the results.
 
 **3.3.** Repeat for L<sub>S</sub> = 0. Comment on the results.
-
-**Hint:** When you need to find a commercial product, you can search the database of “Digikey”, which is a big retailer for electronic components, from [**https://www.digikey.com/**](https://www.digikey.com/) *. Alternatively, you can search other big retailers such as Farnell and Mouser.*
 
 **Important:** While documenting your simulation results, it is often
 necessary to make visual arrangements on the graph (zoom in/out, axis

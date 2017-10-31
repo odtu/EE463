@@ -2,11 +2,12 @@
 
 Here are the important points for Project #1
 
-- You will complete project in pairs. 
+- You will complete the project in pairs. 
 - You will be assigned a private GitHub repo with your project partner. Each partner is required to contribute to the work.
 - This project is to be completed using PSIM.
-- At the end of the project, you are required to submit a project report as well as your simulation files.
+- At the end of the project, you are required to submit a project report (in PDF) as well as your simulation files.
 - Reports will be checked using Turnitin, and copying will not be tolerated.
+- No reports and commits will be accepted after the deadline.
 
 ## Evaluation
 
@@ -17,7 +18,6 @@ The project will be evaluated using the following guideline:
 **Report Quality:15%:** Text explaining your design decisions, quality of your figures, citing relevant studies and your conclusion section.
 
 **Technical Level:65%:** The detail level of your simulations and your conclusions.
-
 
 ## Number of Commits:
 
@@ -43,68 +43,24 @@ You'll get 5 points from the content of your commit messages. You are supposed t
 You report quality will be evaluated using the following criteria:
 
 - The report has a separate title page (2pts)
-- The report has a table of contents page (1pts)
 - The report has an introduction section that briefly explains the content and the aims of the report (2pts)
-- The report organized properly with clear sections and subsections (1pts)
-- All figures and tables have proper captions (2pts)
-- The graphs have proper axes labels and font size of labels is adequate (2pts)
-- The graphs are clear, and line colors are distinguishable (1pts)
-- No grammar/spelling errors and very well-written report (hint: use spell-check) (2pts)
-- The report has a conclusion section that summarizes what have been achieved (2pts)
+- The report organized properly with clear sections and subsections (2pts)
+- All figures and tables have proper captions (3pts)
+- The graphs have proper axes labels and font size of labels is adequate (3pts)
+- No grammar/spelling errors and very well-written report (hint: use spell-check) (3pts)
 
 ## Technical Level:
 
+Following grades will be applied for the technical parts:
 
-TBA!
-
-For this project following will be checked in your reports and in your models:
-
-**Part-A Preliminary Design**
-
-- Enough theoretical background is presented to choose the DC-link filter elements. (4pts)
-- Enough results are given to prove that 1% ripple condition is satisfied. (3pts)
-- The switching frequency is chosen properly and the chosen value is reasonable. (3pts)
-
-**Part B: Modeling and Simulation**
-
-- The designed PWM system is capable of applying four-quadrant operation, and these modes are clearly demonstrated (both with simulation results and with theoretical information). (4pts)
-- The system successfully driven with 0.6 duty cycle (with constant DC voltage), and the required waveforms are presented. (3pts)
-- The system is combined with the diode-rectifier, and the change in drive characteristics is well presented with enough comments. (4pts)
-
-**Part C: Open Loop Control**
-
-- Forward Motoring at Rated Speed:
-    - Required duty cycle for rated speed is calculated correctly. (3pts)
-    - The required plots are presented with additional comments. (3pts)
-
-- Rated Speed to Half Speed Step Response:
-    - Required duty cycle for 0.5 rated speed is calculated correctly. (3pts)
-    - Change in the DC-link voltage and the direction of the power flow during transient is presented. (3pts)
-    - Comments on the operation mode during the transient. (3pts)
-
-**Part D: Dynamic Braking**
-
-- Braking is applied to the motor when it is running at the steady-state speed and the required plots are presented with additional comments. (3pts)
-- The methodology of choosing the braking resistor is presented. (3pts)
-- The braking chopper circuit is implemented. (3pts)
-
-**Part E: Closed Loop Control**
-
-- Some background information about PID controllers are presented. (3pts)
-- Current controller is implemented, and the acceleration transient is presented with required plots. (3pts)
-- Information about the selection of PID controller gains is presented. (3pts)
-- Hysteresis current controller is presented with required plots. (3pts)
-- Two methods are compared listing the advantages and disadvantages of each system. (3pts)
-
-**Part F: Speed Controller**
-
-- Speed controller is implemented with some background information. (3pts)
-- The system accelerated from standstill to rated speed and the plots are given to prove the operation with enough comments. (2pts)
-- The system is accelerated and decelerated with within the maximum limits defined. (2pts)
-- Jerk limitation is implemented in the control loop. (2pts)
-
-**Part G: Component Selection**
-
-- Reasonings for choosing the suitable power electronics is presented. (2pts)
-- Commercially available components are investigated and a proper device is chosen for the transistors and the reasons behind the choice are explained. (2pts)
- - Commercially available components are investigated and a proper device is chosen for the rectifying diodes and the reasons behind the choice is explained. (2pts)
+- Q1: 5pts
+- Q2:
+    - 2.1: 5 pts
+    - 2.2: 10 pts
+    - 2.3: 10 pts
+    - 2.4: 5 pts
+    - 2.5: 5 pts
+- Q3:
+    - 3.1: 5pts
+    - 3.2: 10pts
+    - 3.3: 10pts
