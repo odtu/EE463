@@ -16,11 +16,11 @@ the importance of step size in a digital simulation environment?
 
 **2)** Simulate a single-phase diode rectifier for the following loads;
 
-- A resistive load of R = 50 Ω
+- A resistive load of R = 25 Ω
 
-- An RL load of R = 50 Ω , L = 330 µH
+- An RL load of R = 25 Ω , L = 10 mH
 
-- An RL load of R = 50 Ω , L = 1 mH
+- An RL load of R = 25 Ω , L = 1 H
 
 **2.1.** Plot the output voltage waveforms at steady state and obtain
 the average value of the output voltage and THD of the line current.
@@ -41,8 +41,8 @@ suitable for that circuit.
 search in the “aluminum electrolytic capacitors” category. State the
 product code and provide its datasheet.
 
-**2.4.** Repeat the R = 50 Ω , L = 330 µH load case with a line inductance of
-L<sub>S</sub> = 1 mH and compare the results without the line inductance and comment on the differences.
+**2.4.** Repeat the R = 25 Ω , L = 1 H load case with a line inductance of
+L<sub>S</sub> = 10 mH and compare the results without the line inductance and comment on the differences.
 
 **2.5.** Consider the case depicted in Figure 5.25 of your textbook(Mohan).
 Assume the load resistance R = 25 Ω, and the line inductances
