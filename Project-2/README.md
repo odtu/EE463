@@ -17,11 +17,11 @@ Consider the single phase rectifier topologies shown below:
 
 where R<sub>L</sub> = 4 Ω, L<sub>L</sub> = 200 mH, L<sub>s</sub> = 0.5 mH.
 
-- Calculate analytically the required firing angle α which results in an average output current value of 40 A for all of the topologies listed above, and verify your calculations with simulations.
+**a)** Calculate analytically the required firing angle α which results in an average output current value of 40 A for all of the topologies listed above, and verify your calculations with simulations.
 
-- Plot V<sub>s</sub> and I<sub>s</sub> on the same graph and find the THD value of I<sub>s</sub> for the topologies.
+**b)** Plot V<sub>s</sub> and I<sub>s</sub> on the same graph and find the THD value of I<sub>s</sub> for the topologies.
 
-- Compare the topologies wrt to their advantages, disadvantages and their application areas. Discuss their operational similarities and differences.
+**c)** Compare the topologies wrt to their advantages, disadvantages and their application areas. Discuss their operational similarities and differences.
 
 ### Q2) DC Motor Drive
 
@@ -42,17 +42,17 @@ Other necessary data for the system is as follows:
 
 You can assume default values (of Simulink block), for any parameters not mentioned. For this step, you can use an auxiliary DC power supply providing 300 V for the field excitation.
 
-a) Plot armature current, speed and torque like the one shown below. Find line current THD (at the steady state).
+**a)** Plot armature current, speed and torque like the one shown below. Find line current THD (at the steady state).
 
 ![](dc_motor_current.png)
 
-b) Comment on characteristics (ie frequency, magnitude etc ) ofthe torque ripple.
+**b)** Comment on characteristics (ie frequency, magnitude etc ) ofthe torque ripple.
 
-c) Propose two methods in order to reduce the torque ripple below 10% of the average torque. Simulate the methods and discuss pros and cons of these methods.
+**c)** Propose two methods in order to reduce the torque ripple below 10% of the average torque. Simulate the methods and discuss pros and cons of these methods.
 
-d) Eliminate the auxiliary DC supply used for the field excitation. Field winding is now excited by the rectifier output. Use a suitable resistor to limit the current so that the average field current is the same with the previous situation. Repeat the part (a) and comment.
+**d)** Eliminate the auxiliary DC supply used for the field excitation. Field winding is now excited by the rectifier output. Use a suitable resistor to limit the current so that the average field current is the same with the previous situation. Repeat the part (a) and comment.
 
-e) Find the overall drive efficiency (mechanical power output / electric power in). Identify the sources of power loss and make a chart that shows percent share of each loss type.
+**e)** Find the overall drive efficiency (mechanical power output / electric power in). Identify the sources of power loss and make a chart that shows percent share of each loss type.
 
 ## Q3) Alternative Rectifier Topologies
 
@@ -60,12 +60,12 @@ Consider the power conversion topology depicted below:
 
 ![](q3.gif)
 
-a) Find the name of the topology and describe its operation and application areas. If you find other variations of this power conversion topology, briefly state them and discuss the differences.
+**a)** Find the name of the topology and describe its operation and application areas. If you find other variations of this power conversion topology, briefly state them and discuss the differences.
 
 
-b) Compare this topology with the full bridge diode rectifier by simulating them both. For a good comparison, arrange the operating conditions such that they both produce the same average output voltage and average load current values for a resistive load of 10 Ω. Discuss pros and cons.
+**b)** Compare this topology with the full bridge diode rectifier by simulating them both. For a good comparison, arrange the operating conditions such that they both produce the same average output voltage and average load current values for a resistive load of 10 Ω. Discuss pros and cons.
 
-*Hints:* 
+**Hints:** 
 
 - Do not forget to include “powergui” box to your model.
 
@@ -80,4 +80,4 @@ necessary to make visual arrangements on the graph (zoom in/out, axis
 scales, background color, markers etc..). When plotting a periodic
 signal, a few repetitions of the full period is enough, i.e. do not plot
 a 50 Hz waveform for several seconds as it makes no sense. Unless it is
-stated otherwise, document only the steady state values.*
+stated otherwise, document only the steady state values.
