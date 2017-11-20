@@ -9,7 +9,9 @@ Please check [evaluation.md](evaluation.md) for other details and evaluation cri
 
 Throughout this homework, assume the rectifiers are connected to Turkish grid (400 V l-l, 50 Hz). Note that, single-phase rectifiers are connected to Phase-Neutral. When a single-phase diode rectifier is mentioned, it is energized with a phase and neutral connection.
 
-**1)** Consider the single phase rectifier topologies shown below:
+### Q1) Single Phase Controlled Rectifier
+
+Consider the single phase rectifier topologies shown below:
 
 ![](single_phase_rectifiers.png)
 
@@ -21,7 +23,9 @@ where R<sub>L</sub> = 4 Ω, L<sub>L</sub> = 200 mH, L<sub>s</sub> = 0.5 mH.
 
 - Compare the topologies wrt to their advantages, disadvantages and their application areas. Discuss their operational similarities and differences.
 
-**2)** A DC motor is fed from a three-phase grid via a three phase full bridge diode rectifier. Mechanical load driven by the motor is fixed at 25 N.m. Motor data is as follows:
+### Q2) DC Motor Drive
+
+A DC motor is fed from a three-phase grid via a three phase full bridge diode rectifier. Mechanical load driven by the motor is fixed at 25 N.m. Motor data is as follows:
 
 - Armature resistance, Ra = 10 Ω
 - Armature inductance, La = 0.1 H
@@ -50,7 +54,9 @@ d) Eliminate the auxiliary DC supply used for the field excitation. Field windin
 
 e) Find the overall drive efficiency (mechanical power output / electric power in). Identify the sources of power loss and make a chart that shows percent share of each loss type.
 
-**3)** Consider the power conversion topology depicted below:
+## Q3) Alternative Rectifier Topologies
+
+Consider the power conversion topology depicted below:
 
 ![](q3.gif)
 
