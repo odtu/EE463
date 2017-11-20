@@ -13,63 +13,61 @@ Throughout this homework, assume the rectifiers are connected to Turkish grid (4
 
 ![](single_phase_rectifiers.png)
 
-where R<sub>L</sub> = 4 Ω, LL = 200 mH, LS = 0.5 mH.
- Simulate a single-phase diode rectifier feeding a resistive load
-of R = 100 Ω. As the step size for the simulation, try 1.5 msec, 10 µsec
-and 1 µsec. Compare the results and comment on the differences. What is
-the importance of step size in a digital simulation environment?
+where R<sub>L</sub> = 4 Ω, L<sub>L</sub> = 200 mH, L<sub>s</sub> = 0.5 mH.
 
-**2)** Simulate a single-phase diode rectifier for the following loads;
+- Calculate analytically the required firing angle α which results in an average output current value of 40 A for all of the topologies listed above, and verify your calculations with simulations.
 
-- A resistive load of R = 50 Ω
+- Plot V<sub>s</sub> and I<sub>s</sub> on the same graph and find the THD value of I<sub>s</sub> for the topologies.
 
-- An RL load of R = 50 Ω , L = 330 µH
+- Compare the topologies wrt to their advantages, disadvantages and their application areas. Discuss their operational similarities and differences.
 
-- An RL load of R = 50 Ω , L = 1 mH
+**2)** A DC motor is fed from a three-phase grid via a three phase full bridge diode rectifier. Mechanical load driven by the motor is fixed at 25 N.m. Motor data is as follows:
 
-**2.1.** Plot the output voltage waveforms at steady state and obtain
-the average value of the output voltage and THD of the line current.
-Compare the results and comment on the differences between different types of loads.
+- Armature resistance, Ra = 10 Ω
+- Armature inductance, La = 0.1 H
+- Field resistance, Rf = 300 Ω
+- Field inductance, Lf = 156 H
+- Field-armature mutual inductance, Laf = 2 H
 
-**2.2.** Choose a commercial diode suitable for the operation described
-in the question. Find both a discrete diode and a single phase diode
-rectifier module. In your report, state their product codes and provide their important parameters from the datasheet. Make a comparison between these two possible choices (using discrete diodes or rectifier module).
+Other necessary data for the system is as follows:
 
-**Hint:** When you need to find a commercial product, you can search the database of “Digikey”, which is a big retailer for electronic components, from [**https://www.digikey.com/**](https://www.digikey.com/) *. Alternatively, you can search other big retailers such as Farnell and Mouser.*
+- Diode forward voltage, Vf = 0.8 V
+- Diode on resistance, Ron = 20 mΩ
+- Source inductance, Ls = 100 µH
+- Source resistance, Rs = 100 mΩ
 
-**2.3.** Assume an RC loaded rectifier with R = 100 Ω. Find the required
-capacitance value which yields an output voltage ripple smaller than 20%
-of the average output voltage. Choose also a commercial capacitor
-suitable for that circuit. 
+You can assume default values (of Simulink block), for any parameters not mentioned. For this step, you can use an auxiliary DC power supply providing 300 V for the field excitation.
 
-*Hint:* Among different types of capacitors,
-search in the “aluminum electrolytic capacitors” category. State the
-product code and provide its datasheet.
+a) Plot armature current, speed and torque like the one shown below. Find line current THD (at the steady state).
 
-**2.4.** Repeat the R = 50 Ω , L = 330 µH load case with a line inductance of
-L<sub>S</sub> = 1 mH and compare the results without the line inductance and comment on the differences.
+![](dc_motor_current.png)
 
-**2.5.** Consider the case depicted in Figure 5.25 of your textbook(Mohan).
-Assume the load resistance R = 25 Ω, and the line inductances
-L<sub>S1</sub> = L<sub>S1</sub> = 600 µH. Draw the voltage at the point
-of common coupling (PCC) and comment on the waveform.
+b) Comment on characteristics (ie frequency, magnitude etc ) ofthe torque ripple.
+
+c) Propose two methods in order to reduce the torque ripple below 10% of the average torque. Simulate the methods and discuss pros and cons of these methods.
+
+d) Eliminate the auxiliary DC supply used for the field excitation. Field winding is now excited by the rectifier output. Use a suitable resistor to limit the current so that the average field current is the same with the previous situation. Repeat the part (a) and comment.
+
+e) Find the overall drive efficiency (mechanical power output / electric power in). Identify the sources of power loss and make a chart that shows percent share of each loss type.
+
+**3)** Consider the power conversion topology depicted below:
+
+![](q3.gif)
+
+a) Find the name of the topology and describe its operation and application areas. If you find other variations of this power conversion topology, briefly state them and discuss the differences.
 
 
-![](project1_fig.png)
-Figure 1. Single-phase diode rectifiers operated from a three-phase
-grid with neutral connection.*
+b) Compare this topology with the full bridge diode rectifier by simulating them both. For a good comparison, arrange the operating conditions such that they both produce the same average output voltage and average load current values for a resistive load of 10 Ω. Discuss pros and cons.
 
-**3)** Consider the case depicted in Figure 1, where there are three
-single-phase diode bridge rectifiers connected to each phase of the system. Each rectifier feeds its own RC load of R = 200 Ω , C = 470 µF. Line inductances are L = 600 µH.
+*Hints:* 
 
-**3.1.** Find the PF and THD of input current. Plot the waveforms for
-Phase A current, neutral wire current and “Diode Bridge 1” output
-voltage.
+- Do not forget to include “powergui” box to your model.
 
-**3.2.** Find rms values of line currents and neutral current. Comment on
-the results.
+- You can find the DC motor model from Simscape → Power Systems → Special Technology → Fundamental Blocks → Machines
 
-**3.3.** Repeat for L<sub>S</sub> = 0. Comment on the results.
+- For the AC source, use “Three-Phase Source” block.
+
+- There may be different resistor, capacitor, inductor models some of which may be inoperable with your models. Search for “Series RLC Branch” when you need to model a passive element (it can be arranged to any R, L, C or their combinations).
 
 **Important:** While documenting your simulation results, it is often
 necessary to make visual arrangements on the graph (zoom in/out, axis
