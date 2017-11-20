@@ -1,10 +1,10 @@
-## Guideline for Project #1
+## Guideline for Project #2
 
-Here are the important points for Project #1
+Here are the important points for Project #2
 
 - You will complete the project in pairs. 
 - You will be assigned a private GitHub repo with your project partner. Each partner is required to contribute to the work.
-- This project is to be completed using PSIM.
+- This project is to be completed using MATLAB Simulink (I strongly recommend to use 2016 version for compatibility issues).
 - At the end of the project, you are required to submit a project report (in PDF) as well as your simulation files.
 - Reports will be checked using Turnitin, and copying will not be tolerated.
 - No reports and commits will be accepted after the deadline.
@@ -49,7 +49,7 @@ You report quality will be evaluated using the following criteria:
 - The graphs have proper axes labels and font size of labels is adequate (3pts)
 - No grammar/spelling errors and very well-written report (hint: use spell-check) (3pts)
 
-## Technical Level:
+## Technical Level: TBA
 
 Following grades will be applied for the technical parts:
 
