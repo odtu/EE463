@@ -49,18 +49,21 @@ You report quality will be evaluated using the following criteria:
 - The graphs have proper axes labels and font size of labels is adequate (3pts)
 - No grammar/spelling errors and very well-written report (hint: use spell-check) (3pts)
 
-## Technical Level: TBA
+## Technical Level:
 
 Following grades will be applied for the technical parts:
 
-- Q1: 5pts
+- Q1: 
+    - a) 5pts
+    - b) 5pts
+    - c) 5pts
 - Q2:
-    - 2.1: 5 pts
-    - 2.2: 10 pts
-    - 2.3: 10 pts
-    - 2.4: 5 pts
-    - 2.5: 5 pts
+    - a) 5pts
+    - b) 5pts
+    - c) 10pts
+    - d) 5pts
+    - e) 10pts
 - Q3:
-    - 3.1: 5pts
-    - 3.2: 10pts
-    - 3.3: 10pts
+    - a) 5pts
+    - b) 10pts
+
