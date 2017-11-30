@@ -53,7 +53,7 @@ I believe the most sensible way of connection is shunt-excited, however you are 
 
 Hardware implementation is quite risky. Design process and the prototyping can take a much longer time that you have anticipated. A simulation project can be straightforward, but a hardware project is like below:
 
-![](./https://blog.sweek.com/wp-content/uploads/2015/12/5.png)
+![](https://blog.sweek.com/wp-content/uploads/2015/12/5.png)
 
 Therefore, I stongly advise you to start working immediately, and:
 
