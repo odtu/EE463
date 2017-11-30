@@ -35,4 +35,31 @@ I believe the most sensible way of connection is shunt-excited, however you are 
 
 ### Project Steps:
 
+- Choose your partners: Each group will consist of 3 people. You are free to choose your partners.
+
+- Open a public repo: Open a public repo that you will put all your work into, and send me a link.
+
+- Decide on a topology: Discuss the advantages and disadvantages of each topology. Simulate your design in order to evaluate the performance. Don't forget about how to generate control/gate signals.
+
+- Component Selection: Find the suitable components. Don't forget the logistics, it may take quite a lot of time to obtain some products.
+
+- Implementation: Build a prototype as fast as possible, and keep iterating.
+
+- Demo Day
+
+
+
+### Hints:
+
+Hardware implementation is quite risky. Design process and the prototyping can take a much longer time that you have anticipated. A simulation project can be straightforward, but a hardware project is like below:
+
+![](./https://blog.sweek.com/wp-content/uploads/2015/12/5.png)
+
+Therefore, I stongly advise you to start working immediately, and:
+
+![](http://img.picturequotes.com/2/244/243483/fail-early-fail-often-in-order-to-succeed-sooner-quote-1.jpg)
+
+
 TBA
+
+
