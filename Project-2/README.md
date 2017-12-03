@@ -44,7 +44,7 @@ You can assume default values (of Simulink block), for any parameters not mentio
 
 **a)** Plot armature current, speed and torque like the one shown below. Find line current THD (at the steady state).
 
-![](dc_motor_current.png)
+![](dc_motor_current.jpg)
 
 **b)** Comment on characteristics (ie frequency, magnitude etc ) ofthe torque ripple.
 
