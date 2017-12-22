@@ -55,10 +55,12 @@ WEBENCH is a digital platform created by Texas Instruments to design and simulat
 
 In order to become familiar with WEBENCH and learn the straight forward design method which is commonly preferred in industry, you are supposed to design a step-up converter as known as boost converter using this platform. For the design, the input parameters are given in Table 1. 
 
+
 | Vin  | 5± 0.2 V |
 | Vout | 12 V     |
 | Pout | 24 W     |
 | Tamb | 25⁰C     |
+
 Table 1: Input Parameters
 
 
