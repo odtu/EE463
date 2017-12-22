@@ -82,10 +82,10 @@ You can get extra points (25 pts for each) in any of the following:
 Teams I am aware so far:
 
 - [Kesla Motors: Melisa, Hande, Özgür](https://github.com/ghandeb/KESLA-Motors)
-- [Hakan S, Ceren, ?](https://github.com/hakansrc/EE463-Hardware-Project)
+- [Hakan S, Ceren, Yusuf](https://github.com/hakansrc/EE463-Hardware-Project)
 - [Ripple Warriors: Eralp, Raşit, Mahmut Enes](https://github.com/MehmetEralpKose/Ripple-Warriors-Hardware-Project-)
 - [Ümit Mert, ?,?](https://github.com/UmitMertCaglar/EE463-Hardware-Project)
--[Caner, Uğur, Tuna](https://github.com/caneryagci/EE_463-Hardware-Project)
+- [Caner, Uğur, Tuna](https://github.com/caneryagci/EE_463-Hardware-Project)
 
 If your name is not listed above, please inform me asap.
 
