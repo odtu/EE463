@@ -57,9 +57,10 @@ In order to become familiar with WEBENCH and learn the straight forward design m
 
 
 | Vin  | 5± 0.2 V |
+|------|----------|
 | Vout | 12 V     |
 | Pout | 24 W     |
-| Tamb | 25⁰C     |
+| Tamb | 25 C     |
 
 Table 1: Input Parameters
 
