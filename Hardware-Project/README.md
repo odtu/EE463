@@ -86,6 +86,8 @@ Teams I am aware so far:
 - [Ripple Warriors: Eralp, Raşit, Mahmut Enes](https://github.com/MehmetEralpKose/Ripple-Warriors-Hardware-Project-)
 - [Ümit Mert, ?,?](https://github.com/UmitMertCaglar/EE463-Hardware-Project)
 - [Caner, Uğur, Tuna](https://github.com/caneryagci/EE_463-Hardware-Project)
+- [Dank Drivers: Mert, Hakan Polat](https://github.com/hakanpolat/EE463--Dank-Drivers)
+
 
 If your name is not listed above, please inform me asap.
 
