@@ -84,7 +84,7 @@ Teams I am aware so far:
 - [Kesla Motors: Melisa, Hande, Özgür](https://github.com/ghandeb/KESLA-Motors)
 - [Hakan S, Ceren, Yusuf](https://github.com/hakansrc/EE463-Hardware-Project)
 - [Ripple Warriors: Eralp, Raşit, Mahmut Enes](https://github.com/MehmetEralpKose/Ripple-Warriors-Hardware-Project-)
-- [Ümit Mert, ?,?](https://github.com/UmitMertCaglar/EE463-Hardware-Project)
+- [EMAchines: Ümit Mert, Ekin, Asım](https://github.com/UmitMertCaglar/EE463-Hardware-Project)
 - [Caner, Uğur, Tuna](https://github.com/caneryagci/EE_463-Hardware-Project)
 - [Dank Drivers: Mert, Hakan Polat](https://github.com/hakanpolat/EE463--Dank-Drivers)
 - [Ankara Instruments: Emin, Özgür, Talgat](https://github.com/emincinalioglu/Ankara-Instruments)
