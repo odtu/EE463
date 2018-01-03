@@ -88,6 +88,7 @@ Teams I am aware so far:
 - [Caner, Uğur, Tuna](https://github.com/caneryagci/EE_463-Hardware-Project)
 - [Dank Drivers: Mert, Hakan Polat](https://github.com/hakanpolat/EE463--Dank-Drivers)
 - [Ankara Instruments: Emin, Özgür, Talgat](https://github.com/emincinalioglu/Ankara-Instruments)
+- [Celal, Abdurrahman, Tugay](https://github.com/celalkavlak/EE463_Hardware_Project)
 
 If your name is not listed above, please inform me asap.
 
