@@ -3,10 +3,10 @@
 Here are the important points for Project #1
 
 - You will complete the project in pairs. 
-- You will be assigned a private GitHub repo with your project partner. Each partner is required to contribute to the work.
-- This project is to be completed using PSIM.
-- At the end of the project, you are required to submit a project report (in PDF) as well as your simulation files.
-- Reports will be checked using Turnitin, and copying will not be tolerated.
+- You are required to create one Github repo in one of the team member's account. Then please add me (ozank) and İlker (ilkersahin78) as contributors. Each partner is required to contribute to the work.
+- You can use any simulation software you want, but it is advised to use MATLAB Simulink (A tutorial will be organized next week).
+- At the end of the project, you are required to submit a project report (in PDF) to ODTUClass. Both this report and your source files in the GitHub repo will be used for grading.
+- Reports will be checked using Turnitin, and copying will not be tolerated. Even if you find a report, so that you can inspire, you are limiting of what you can learn from this course. Don't fool yourself, and do your projects with your team member only.
 - No reports and commits will be accepted after the deadline.
 
 ## Evaluation
