@@ -82,16 +82,31 @@ You can get extra points (25 pts for each) in any of the following:
 Teams I am aware so far:
 
 - [Kesla Motors: Melisa, Hande, Özgür](https://github.com/ghandeb/KESLA-Motors)
-- [Hakan S, Ceren, Yusuf](https://github.com/hakansrc/EE463-Hardware-Project)
-- [Ripple Warriors: Eralp, Raşit, Mahmut Enes](https://github.com/MehmetEralpKose/Ripple-Warriors-Hardware-Project-)
+- [FNAG: Hakan S, Ceren, Yusuf](https://github.com/hakansrc/EE463-Hardware-Project)
+- [Ripple Warriors: Eralp, Mahmut Enes](https://github.com/MehmetEralpKose/Ripple-Warriors-Hardware-Project-)
 - [EMAchines: Ümit Mert, Ekin, Asım](https://github.com/UmitMertCaglar/EE463-Hardware-Project)
-- [Caner, Uğur, Tuna](https://github.com/caneryagci/EE_463-Hardware-Project)
+- [THD Defenders: Caner, Uğur, Tuna](https://github.com/caneryagci/EE_463-Hardware-Project)
 - [Dank Drivers: Mert, Hakan Polat](https://github.com/hakanpolat/EE463--Dank-Drivers)
 - [Ankara Instruments: Emin, Özgür, Talgat](https://github.com/emincinalioglu/Ankara-Instruments)
-- [Celal, Abdurrahman, Tugay](https://github.com/celalkavlak/EE463_Hardware_Project)
+- [Shark Attack: Celal, Abdurrahman, Tugay](https://github.com/celalkavlak/EE463_Hardware_Project)
 - [Converting Falcons: Cem, Ayberk Kaan, Olgun](https://github.com/OlgunErdogan/Converting_Falcons)
+- [Raşit](https://github.com/rasitgokmen/EE463-Project)
 
 If your name is not listed above, please inform me asap.
+
+
+### Project Videos:
+
+- [Kesla Motors](https://www.youtube.com/watch?v=I-ww9eQDfaU)
+- [FNAG](https://youtu.be/eVu52fjexhE)
+- [Ripple Warriors](https://drive.google.com/file/d/1-aCfB_sSwF4t1ENeGZwWkp-CMlNDKGck/view)
+- [EMAchines](https://www.youtube.com/watch?v=PyMzq8Eca7o)
+- [THD Defenders](https://www.youtube.com/watch?v=gRVRT1USEpw)
+- [Dank Drivers](​https://youtu.be/Q4zAWDH7_88)
+- [Ankara Instruments](https://drive.google.com/open?id=17f6EGrr7mS8Uh7WiCu8BmIiLnXTHfP1c)
+- [Shark Attack](​https://drive.google.com/open?id=1OIxgk-Lcdn7AT_PH-EiCHYb63u0lPHV_)
+- [Converting Falcons](https://www.youtube.com/watch?v=T0_olXNja7c&feature=youtu.be)
+- [Raşit](https://www.youtube.com/watch?v=tHf7YZv6PTA)
 
 ### Frequently Asked Questions
 
