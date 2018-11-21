@@ -13,7 +13,7 @@ If you can not contact your team member, please let me know asap. Individual pro
 | 6       	| [Mert](http://github.com/mertelmas)  	| [Batuhan](http://github.com/batuhan-bulbul)           	|
 | 7       	| [Mehmet](http://github.com/mehmetelen)  	| [Samet](http://github.com/sametyildirima)           	|
 | 8       	| [Huzeyfe](http://github.com/hhintoglu)  	| [Semih](http://github.com/semihcirkin)            	|
-| 9       	| [Gürkan](http://github.com/gurkandyilmaz)  	| [Ahmet](http://github.com/nazliogluahmet)           	|
+| 9       	|   	| [Ahmet](http://github.com/nazliogluahmet)           	|
 | 10       	| [Ali Aydın Yamandağ](http://github.com/aliaydinyamandag)  	| [Ekin Su](http://github.com/ekinsacin)           	|
 | 11       	| [Sonay](http://github.com/sonayulukaya)  	| [Berkay](http://github.com/berkaysaglam)           	|
 | 12       	| [Hikmet Murat](http://github.com/hmurat)  	| [Ozan Can](http://github.com/ozancaniyier)           	|
