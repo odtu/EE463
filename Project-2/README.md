@@ -27,7 +27,7 @@ where R<sub>L</sub> = 4 Ω, L<sub>L</sub> = 200 mH, L<sub>s</sub> = 0.5 mH.
 A DC motor is fed from a three-phase grid via a three phase full bridge diode rectifier. Mechanical load driven by the motor is fixed at 25 N.m. Motor data is as follows:
 
 - Armature resistance, Ra = 10 Ω
-- Armature inductance, La = 0.1 H
+- Armature inductance, La = 0.01 H
 - Field resistance, Rf = 300 Ω
 - Field inductance, Lf = 156 H
 - Field-armature mutual inductance, Laf = 2 H
