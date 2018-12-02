@@ -58,11 +58,11 @@ Following grades will be applied for the technical parts:
     - b) 5pts
     - c) 5pts
 - Q2:
-    - a) 5pts
+    - a) 10pts
     - b) 5pts
     - c) 10pts
-    - d) 5pts
-    - e) 10pts
+    - d) 10pts
+
 - Q3:
     - a) 5pts
     - b) 10pts

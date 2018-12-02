@@ -24,13 +24,14 @@ where R<sub>L</sub> = 4 Ω, L<sub>L</sub> = 200 mH, L<sub>s</sub> = 0.5 mH.
 
 ### Q2) DC Motor Drive
 
-A DC motor is fed from a three-phase grid via a three phase full bridge diode rectifier. Mechanical load driven by the motor is fixed at 25 N.m. Motor data is as follows:
+A PM DC motor is fed from a three-phase grid via a three phase full bridge diode rectifier. Mechanical load driven by the motor is fixed at 24 N.m. Motor data is as follows:
 
+- Field Type: Permanent Magnet
 - Armature resistance, Ra = 10 Ω
 - Armature inductance, La = 0.01 H
-- Field resistance, Rf = 300 Ω
-- Field inductance, Lf = 156 H
-- Field-armature mutual inductance, Laf = 2 H
+- Torque Constant: 3 Nm/A
+- Back-emf Constant: 0.3 V/rpm
+- Motor Inertia: 1 kgm2
 
 Other necessary data for the system is as follows:
 
@@ -39,7 +40,9 @@ Other necessary data for the system is as follows:
 - Source inductance, Ls = 100 µH
 - Source resistance, Rs = 100 mΩ
 
-You can assume default values (of Simulink block), for any parameters not mentioned. For this step, you can use an auxiliary DC power supply providing 300 V for the field excitation. Please note that, there are more than one DC-motor models in Simulik, please use [this one](https://www.mathworks.com/help/physmod/sps/powersys/ref/dcmachine.html).
+You can assume default values (of Simulink block), for any parameters not mentioned. Please note that, there are more than one DC-motor models in Simulik, please use [this one](https://www.mathworks.com/help/physmod/sps/powersys/ref/dcmachine.html).
+
+Hint: If you have stability issues with the motor, you can apply load torque a little after the motor is started, or you can play with the initial conditions of the supply or DC-link capacitors etc.
 
 **a)** Plot armature current, speed and torque of the motor from stand-still (zero speed) to steady-state. The graphs should be similar to the ones below. 
 
@@ -49,9 +52,10 @@ You can assume default values (of Simulink block), for any parameters not mentio
 
 **c)** Propose two methods in order to reduce the torque ripple below 10% of the average torque. Simulate the methods and discuss pros and cons of these methods.
 
-**d)** Eliminate the auxiliary DC supply used for the field excitation. Field winding is now excited by the rectifier output. Use a suitable resistor to limit the current so that the average field current is the same with the previous situation. Repeat the part (a) and comment.
 
-**e)** Find the overall drive efficiency (mechanical power output / electric power in). Identify the sources of power loss and make a chart that shows percent share of each loss type.
+**d)** Find the overall drive efficiency (mechanical power output / electric power input) at steady state. Identify the sources of power loss and make a chart that shows percent share of each loss type in the motor drive. 
+
+Optional: Include the motor efficiency to your calculations as well.
 
 ## Q3) Alternative Rectifier Topologies
 
