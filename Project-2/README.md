@@ -29,9 +29,8 @@ A PM DC motor is fed from a three-phase grid via a three phase full bridge diode
 - Field Type: Permanent Magnet
 - Armature resistance, Ra = 10 Ω
 - Armature inductance, La = 0.01 H
-- Torque Constant: 3 Nm/A
 - Back-emf Constant: 0.3 V/rpm
-- Motor Inertia: 1 kgm2
+- Motor Inertia: 0.4 kgm2
 
 Other necessary data for the system is as follows:
 
