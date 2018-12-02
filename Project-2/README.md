@@ -2,8 +2,7 @@
 
 ## Controlled Rectifiers
 
-### Deadline: 06/12/2017 23:59
-
+### Deadline: 16/12/2018 23:59
 
 Please check [evaluation.md](evaluation.md) for other details and evaluation criteria about the project.
 
@@ -17,9 +16,9 @@ Consider the single phase rectifier topologies shown below:
 
 where R<sub>L</sub> = 4 Ω, L<sub>L</sub> = 200 mH, L<sub>s</sub> = 0.5 mH.
 
-**a)** Calculate analytically the required firing angle α which results in an average output current value of 40 A for all of the topologies listed above, and verify your calculations with simulations.
+**a)** Calculate analytically the required firing angle α which results in an average output current value of 40 A for both topologies given above, and verify your calculations with simulations.
 
-**b)** Plot V<sub>s</sub> and I<sub>s</sub> on the same graph and find the THD value of I<sub>s</sub> for the topologies.
+**b)** Plot V<sub>s</sub> and I<sub>s</sub> on the same graph and find the THD value of I<sub>s</sub> for both topologies.
 
 **c)** Compare the topologies wrt to their advantages, disadvantages and their application areas. Discuss their operational similarities and differences.
 
@@ -40,13 +39,13 @@ Other necessary data for the system is as follows:
 - Source inductance, Ls = 100 µH
 - Source resistance, Rs = 100 mΩ
 
-You can assume default values (of Simulink block), for any parameters not mentioned. For this step, you can use an auxiliary DC power supply providing 300 V for the field excitation.
+You can assume default values (of Simulink block), for any parameters not mentioned. For this step, you can use an auxiliary DC power supply providing 300 V for the field excitation. Please note that, there are more than one DC-motor models in Simulik, please use [this one](https://www.mathworks.com/help/physmod/sps/powersys/ref/dcmachine.html).
 
-**a)** Plot armature current, speed and torque like the one shown below. Find line current THD (at the steady state).
+**a)** Plot armature current, speed and torque of the motor from stand-still (zero speed) to steady-state. The graphs should be similar to the ones below. 
 
 ![](dc_motor_current.jpg)
 
-**b)** Comment on characteristics (ie frequency, magnitude etc ) ofthe torque ripple.
+**b)** Comment on characteristics (ie frequency, magnitude etc ) of the torque ripple. Find line current THD (at the steady state).
 
 **c)** Propose two methods in order to reduce the torque ripple below 10% of the average torque. Simulate the methods and discuss pros and cons of these methods.
 
