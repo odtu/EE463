@@ -1,8 +1,20 @@
 # EE 463 Hardware Project Tips
 
-**ALWAYS SAFETY FIRST!**
+**REMEMBER ALWAYS SAFETY FIRST!**
 
-# “Do”s
+Hardware implementation is quite risky. Design process and the prototyping can take a much longer time that you have anticipated. A simulation project can be straightforward, but a hardware project is like below:
+
+![](https://blog.sweek.com/wp-content/uploads/2015/12/5.png)
+
+Therefore, I strongly advise you to start working immediately, and:
+
+![](http://img.picturequotes.com/2/244/243483/fail-early-fail-often-in-order-to-succeed-sooner-quote-1.jpg)
+
+Here's a few tips for you. Please remember all of these items are based on real experiences. Please consider each of them. 
+
+----
+
+# DO
 
 - Start thinking about your hardware project early. Fail early, fail often, in order to succeed sooner.
 - Consider and understand your project requirements in detail.
@@ -28,13 +40,13 @@ margin.
 - Start experimenting with low voltage and current, increment it gradually.
 - Specify measurement points considering earth and floating ground connections.
 
-# “Don’t”s
+# DON'T
 
 - Don’t hesitate to share what you know, recognize or find. (Don’t be an typical EE student. No
 one is your enemy or opponent.)
 - Don’t procrastinate the project.
 - Don’t apply a step voltage to the motor.
-- Don’t connect multiple semiconductor devices on the same heatsink without electrical
+- Don’t connect multiple semiconductor devices on the same heat-sink without electrical
 isolation.
 - Don’t start your design with high frequency.
 - Don’t put the soldering iron on the components for long duration, but make sure that it is hot enough.

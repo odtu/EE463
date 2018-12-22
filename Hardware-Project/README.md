@@ -7,7 +7,7 @@
 In this project you are required to make a controlled rectifier that will be used to drive a DC Motor.
 
  - Power Input: 3 Phase, or 1 Phase AC Grid (Adjustable with variac)
- - Output: Adjustable DC Output
+ - Output: Adjustable DC Output (Vmax> 180 Vdc)
 
 You are free to choose any topology such as (but not limited to):
 
@@ -17,7 +17,7 @@ You are free to choose any topology such as (but not limited to):
 
 ### Specs:
 
-You are required to drive the following motor-generator sets:
+You are required to drive the following motor(on the left). The motor will be loaded with the generator(on the right) coupled to the generator:
 
 ![](./motor-set.jpg)
 
@@ -25,13 +25,14 @@ You are required to drive the following motor-generator sets:
 
 Specs of the all motor windings are measured as follows:
 
- - Armature Winding: 28 Ω, 13.3 mH
- - Series Winding: 65 mΩ, 260 uH
- - Shunt Winding: 8.26 kΩ, 6.4 H
- - [Interpoles](https://www.quora.com/Electrical-Machines-What-do-interpoles-do-in-DC-motors) Winding: 0.8 Ω, 5.8 mH
+ - Armature Winding: 0.8 Ω, 12.5 mH
+ - Shunt Winding: 210 Ω, 23 H
+ - [Interpoles](https://www.quora.com/Electrical-Machines-What-do-interpoles-do-in-DC-motors) Winding: 0.27 Ω, 12 mH
  - Inertia: TBA
 
-I believe the most sensible way of connection is shunt-excited, however you are free to use any other connections (series, compound etc) if required.
+In the project you will be supplied with a separate external DC source to feed the field winding (i.e. separately excited DC machine). However, you are free to make any other connection types such as shunt, series or compound if you want.
+
+You can use the variac to gradually apply AC voltage to your drive, and leave it any value you want, but you can not use variac to control voltage during operation.
 
 ### Project Steps:
 
@@ -43,7 +44,7 @@ I believe the most sensible way of connection is shunt-excited, however you are 
 
 - Computer Simulations: According the your topology selection, you are going to run computer simulations, to prove the performance characteristics of your drive. It is best to simulate as detailed as possible to catch possible hardware problems (for example, how to generate control/gate signals).
 
-- Component Selection: According to your analytical calculations and computer simulations decide on which components you are going to use. Not only choose the power components, but also decide on the control, and axillary components. Don't forget to plan logistics, it may take weeks to get some components.
+- Component Selection: According to your analytical calculations and computer simulations decide on which components you are going to use. Not only choose the power components, but also decide on the control, and auxiliary components. Don't forget to plan logistics, it may take weeks to get some components.
 
 - Implementation: Build a prototype as fast as possible, and keep iterating.
 
@@ -57,29 +58,60 @@ Project Outcomes:
 
 - Test Results (15 pts): This section can be added in to the design report, or submitted as a separate report. It should contain your results with the motor running (data can be collected on the demo day, but preferably earlier) The report can contain any other useful tests (i.e. functionality of the switches, tests with R load etc.)  
 
-- Video (15 pts): A video telling your story during the design process and project implementation. It is also expected to put a demo of the working prototype. Videos of max. 3 min should be uploaded to YouTube (or any other online video hosting website). Each team member should appear in the video.
+- Video (15 pts): A video telling your story during the design process and project implementation. It is also expected to put a demo of the working prototype. Videos of maximum 3 min should be uploaded to YouTube (or any other online video hosting website). Each team member should appear in the video.
 
-- Demo Day (30 pts): Each team is expected to present their prototype in the demo day. If you have a prototype, but somehow if it doesn't work on the demo day, you will get zero points from this part. However, if you don't come up with a prototype, or convince me that you put enough effort in building a prototype, you will get zero points from the all hardware project (yes, even if you had the design report).
+- Demo Day (30 pts): Each team is expected to present their prototype in the demo day. If you have a prototype, but somehow if it doesn't work on the demo day, you will get zero points from this part. However, if you don't come up with a prototype, or convince me that you put enough effort in building one, you will get zero points from the all hardware project (yes, even if you had the design report).
 
 #### Bonus Parts
 
-You can get extra points (25 pts for each) in any of the following:
+You can get extra points (up to 25 pts for each) in any of the following:
 
-- Industrial Design Bonus: Implement your design in a PCB, enclose it in a plastic/metal box and label input/outputs with proper connections for safe operation.
+- Industrial Design Bonus: Implement your design in a PCB(or in a neat pertinaks), enclose it in a plastic/metal box (like one of [those](https://www.altinkaya.com.tr/Proje_Kutulari.html), not in a shoe box) and label input/outputs with proper connections for safe operation.
 
-- Robust Design Bonus: Your design should withstand a test of 10 min under full-load (i.e. 2.8 kW). Normally you are just required to run the motor at rated speed at no-load.
+- Robust Design Bonus: Your drive should supply minimum 2 kW power for at least 5 minutes. If you are not aiming for this bonus, your drive should to run the motor from standstill to rated speed at no-load (but beware of high starting currents).
 
-- Feedback Bonus: Implement a speed  regulator to keep the speed constant even if the the load is varied.
+- Compactness Bonus: A bonus will be awarded to a project with the smallest volume (including all cabling, control circuitry, filters etc).
 
-- Best Grid Interface Bonus: THD on the grid side will be measured at the demo day (under full load), and this bonus is awarded to the project with the lowest THD.
+- Simplicity Bonus: A bonus will be awarded to the simplest solution. You chance to get this bonus is tiny if you use large filters, several semiconductors, micro-controllers.
 
 - Four-Quadrant Bonus: Normally you are required to make a single quadrant DC motor drive, but implement a four-quadrant drive to get this bonus.
 
 - Best Video Bonus: Just get creative, and try to get a fun and informative video to describe your project progress.
 
+- Karma Bonus: This bonus will be awarded to one person who helps most to everyone during the project period. This bonus will be awarded by the results of anonymous voting in the demo day.
 
 ### Teams:
 Teams I am aware so far:
+
+Please let me know your teams and GitHub repos if it is not listed below:
+
+-
+-
+-
+
+### Frequently Asked Questions
+
+- Can I use the lab before demo day?
+
+Yes, you will be able to use power electronics lab. The machinery lab can be used after EE361 lab sessions are finished.
+
+- What equipment will be available for us in the lab?
+
+You will be able to use oscilloscope, power supply, soldering station, function generator and variacs.
+
+- Can I also work at nights in the lab?
+
+Unfortunately, due to safety regulations, you have to work under technician supervision. Only exception is if an assistant already working in the lab after-hours, you can use the lab, but there is no fixed or guaranteed schedule for that.
+
+
+### Hints:
+
+For all hints please have a look at the [tips document](https://github.com/odtu/ee463/blob/master/Hardware-Project/tips.md). 
+
+
+# Past Years' Projects
+
+### 2017 Teams
 
 - [Kesla Motors: Melisa, Hande, Özgür](https://github.com/ghandeb/KESLA-Motors)
 - [FNAG: Hakan S, Ceren, Yusuf](https://github.com/hakansrc/EE463-Hardware-Project)
@@ -94,8 +126,7 @@ Teams I am aware so far:
 
 If your name is not listed above, please inform me asap.
 
-
-### Project Videos:
+### 2017 Videos:
 
 - [Kesla Motors](https://www.youtube.com/watch?v=I-ww9eQDfaU)
 - [FNAG](https://youtu.be/eVu52fjexhE)
@@ -108,29 +139,5 @@ If your name is not listed above, please inform me asap.
 - [Converting Falcons](https://www.youtube.com/watch?v=T0_olXNja7c&feature=youtu.be)
 - [Raşit](https://www.youtube.com/watch?v=tHf7YZv6PTA)
 
-### Frequently Asked Questions
-
-- Can I use the lab before demo day?
-
-Yes, you will be able to use both the Machinery Lab, and Machinery lab, but only after all the lab sessions are finished (i.e. after 1st of January)
-
-- What equipment will be available for us in the lab?
-
-You will be able to use, osciloscope, power supply, soldering station, function generator, variacs.
-
-- Can I also work at nights in the lab?
-
-Unfortunately, due to safety regulations, you have to work under technician supervision. Only exception is if an assistant already working in the lab after-hours, you can use the lab, but there is no fixed schedule for that.
-
-
-### Hints:
-
-Hardware implementation is quite risky. Design process and the prototyping can take a much longer time that you have anticipated. A simulation project can be straightforward, but a hardware project is like below:
-
-![](https://blog.sweek.com/wp-content/uploads/2015/12/5.png)
-
-Therefore, I strongly advise you to start working immediately, and:
-
-![](http://img.picturequotes.com/2/244/243483/fail-early-fail-often-in-order-to-succeed-sooner-quote-1.jpg)
 
 
