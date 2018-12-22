@@ -68,11 +68,13 @@ You can get extra points (up to 25 pts for each) in any of the following:
 
 - **Industrial Design Bonus:** Implement your design in a PCB(or in a neat pertinaks), enclose it in a plastic/metal box (like one of [those](https://www.altinkaya.com.tr/Proje_Kutulari.html), not in a shoe box) and label input/outputs with proper connections for safe operation.
 
-- **Robust Design Bonus:** Your drive should supply minimum 2 kW power for at least 5 minutes. If you are not aiming for this bonus, your drive should to run the motor from standstill to rated speed at no-load (but beware of high starting currents).
+- **Robust Design Bonus:** Your drive should supply minimum 2 kW power for at least 5 minutes. If you are not aiming for this bonus, your drive has to accelerate the motor from standstill up to rated speed at no-load (but beware of high starting currents).
+
+- **Current Feedback Bonus:** Implement a current feedback (using shunt resistors or hall sensors) loop to adjust the current automatically and protect your drive against high currents.
 
 - **Compactness Bonus:** A bonus will be awarded to a project with the smallest volume (including all cabling, control circuitry, filters etc).
 
-- **Simplicity Bonus:** A bonus will be awarded to the simplest solution. You chance to get this bonus is tiny if you use large filters, several semiconductors, micro-controllers.
+- **Simplicity Bonus:** A bonus will be awarded to the simplest solution. Your chance to get this bonus is tiny if you use large filters, several semiconductors, micro-controllers etc.
 
 - **Four-Quadrant Bonus:** Normally you are required to make a single quadrant DC motor drive, but implement a four-quadrant drive to get this bonus.
 
