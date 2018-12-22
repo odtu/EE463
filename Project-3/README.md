@@ -9,28 +9,32 @@ Please check [evaluation.md](evaluation.md) for other details and evaluation cri
 
 ### Q1) 3-Phase Thyristor Converter
 
-A DC motor is fed from a three-phase grid via a three phase full bridge (fully controlled) thyristor rectifier. Mechanical load driven by the motor is fixed at 25 N.m (which can be delayed for start-up process). Motor data is as follows:
+A PM DC motor is fed from a three-phase grid via a three phase full bridge (fully controlled) thyristor rectifier. Mechanical load driven by the motor is fixed at 24 Nm (which can be applied a little after the simulation started if you have some starting problems). Motor data is as follows:
 
+
+- Field Type: Permanent Magnet
 - Armature resistance, Ra = 10 Ω
 - Armature inductance, La = 0.01 H
-- Field resistance, Rf = 300 Ω
-- Field inductance, Lf = 156 H
-- Field-armature mutual inductance, Laf = 2 H
-- Other necessary data for the system is as follows:
+- Back-emf Constant: 0.3 V/rpm
+- Motor Inertia: 0.4 kgm2
+
+
+Other necessary data for the system is as follows:
+
 - Thyristor forward voltage, Vf = 0.8 V
 - Thyristor on resistance, Ron = 20 mΩ
 - Source inductance, Ls = 100 µH
 - Source resistance, Rs = 100 mΩ
 
-For the parameters not mentioned here but seen on dialogue boxes of the simulation models, you can assume the default values. For simplicity, you can utilize an auxiliary DC power source providing 300 V for field excitation.
+For the parameters not mentioned here but seen on dialogue boxes of the simulation models, you can assume the default values. 
 
-You are required to design a speed controller, which feeds the controlled rectifier with a proper delay angle (α) such that commanded speed reference is met. To test the effectiveness of the controller you designed, apply the following driving performance test: Start the motor with a speed reference of 150 rad/sec. After the motor reaches its steady state speed value of 150 rad/sec, change the speed reference to 75 rad/sec. Finally, speed reference is set to 150 rad/sec again. Simulation is completed when the motor reaches steady state.
+You are required to design a speed controller, which feeds the controlled rectifier with a proper delay angle (α) such that commanded speed reference is met. To test the effectiveness of the controller you designed, apply the following driving performance test: Start the motor with a speed reference of 150 rad/sec. After the motor reaches its steady state speed value of 150 rad/sec, change the speed reference to 75 rad/sec. Finally, speed reference is set to 150 rad/sec again. Simulation should be finished when the motor reaches steady state.
 
 Plot armature current, speed and torque waveforms on separate graphs but sharing the same time axis (the style used in the previous homework). You may want to change page orientation while documenting the graph for increased visual clarity. Comment on the results. You can develop further driving scenarios and comment on their results too.
 
 **Hints for Simulink:**
 
-- You can use the models that you developed for the previous homework as a starting point. We will be using the same DC machine (remember that its armature inductance value was updated to be 0.01 H, correct if necessary). For the model of thyristor controlled rectifier, you can simply change the switch type from diode to thyristor in the rectifier block and the input port for gating signals will automatically appear.
+- You can use the models that you developed for the previous homework as a starting point. We will be using the same DC machine. For the model of thyristor controlled rectifier, you can simply change the switch type from diode to thyristor in the rectifier block and the input port for gating signals will automatically appear.
 
 - Search for “6-pulse” in the Simulink Library Browser. It is a model that you can use to create required gating pulses of specified time delay. Click on “Help” button of the block to access further information and application examples.
 
@@ -41,13 +45,13 @@ Plot armature current, speed and torque waveforms on separate graphs but sharing
 
 ### Q2) Buck Converter
 
-Design and simulate a Buck converter using a power MOSFET with the following specs: VIN = 56V, VOUT = 28V, RLOAD = 4Ω (fixed). You can run the converter with an “open loop” approach, i.e. by providing a fixed duty cycle of proper value, which yields the desired output voltage at steady state, without designing any control loops.
+Design and simulate a Buck converter using a power MOSFET with the following specs: Vin = 56V, Vout = 28V, Rload = 4Ω (fixed). You can run the converter with an “open loop” approach, i.e. by providing a fixed duty cycle of proper value, which yields the desired output voltage at steady state, without designing any control loops.
 
 Choose a reasonable switching frequency. Design your converter with commercial circuit elements and with their product codes, their costs and important parameters listed.
 
 Simulate and plot the graph depicting the steady state performance of the converter you designed (in the simulations you can use ideal device models). 
 
-State ΔVOUT, ΔIL. Find the overall cost. By going through the devices’ datasheets, evaluate overall efficiency at steady state. Comment on the results.
+State ΔVout, ΔIL. Find the overall cost. By going through the devices’ datasheets, evaluate overall efficiency at steady state. Comment on the results.
 
 ### Q3) Boost Converter (Webench)
 

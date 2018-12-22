@@ -2,24 +2,21 @@
 
 | Team No 	|              	|                 	|
 |---------	|--------------	|-----------------	|
-| 1       	| [Mahmut Enes](http://github.com/mahmuteneskara)  	|         [Olgun](http://github.com/olgunerdogan)  	|
-| 2       	| [Asım Reha](http://github.com/asimreha)    	| [Raşit](http://github.com/rasitgokmen)              	|
-| 3       	| [Mehmet Eralp](http://github.com/mehmeteralpkose) 	|      [Caner](http://github.com/caneryagci)      	|
-| 4       	| [Hande](http://github.com/ghandeb)        	|        [Tuna](http://github.com/tunayildiz) 	|
-| 5       	| [Melisa](http://github.com/melisasarici)       	|    [Uğur Can](http://github.com/ugurc)	|
-| 6       	| [Hakan Saraç](http://github.com/hakansrc)  	|           	[Ümit Mert](http://github.com/umitmertcaglar) |
-| 7       	| [Celal](http://github.com/celalkavlak)        	|         [Özgür Yazıcı](http://github.com/ozgur-yazici)   	|
-| 8       	| [Özgür Durdu](http://github.com/ozgurdurdu) 	| [Mert Karaçelebi](http://github.com/mertkaracelebi) 	|
-| 9       	| [Ayberk Kaan](http://github.com/ayberkkaanfilik)  	|        [Yusuf Basri](http://github.com/yusufbyilmaz)     	|
-| 10      	| [Talgat](http://github.com/talgat-buzurkanov)       	|   [Emin](http://github.com/emincinalioglu)   	|
-| 11      	| [Hakan Polat](http://github.com/hakanpolat) 	| [Tugay](http://github.com/tugaykarakaya)           	|
-| 12      	| [Yunus Emre](https://github.com/YunusEmreBalcioglu) 	|     [Ceren](http://github.com/cereny)     	|
-| 13      	| [Ekin Alp](http://github.com/ekinalpb)     	| [Abdurrahman](http://github.com/abdurrahmanaydin1936293)     	|
-| 14      	| [Cem](http://github.com/cemkavuncu)  	| [Oğuzhan](https://github.com/OguzhanUstundag)   	|
-| 15      	| Ümit Aydeniz   |     	|
-
-
-
-
-
+| 1       	|  [Metehan](http://github.com/MetehanKara) 	| [İven](http://github.com/ivenguzel)           	|
+| 2       	| [Akın](http://github.com/akinsavkli)  	| [Ali Aydın](http://github.com/aliaydin96)           	|
+| 3       	|  [Muhammed Hakan](http://github.com/mhkarakaya) 	| [İsmail](http://github.com/ismail-ataseven)             	|
+| 4       	| [Sadık](http://github.com/sadikakyar)  	|   [Furkan Tokgöz](http://github.com/tokgozfurkan)    	|
+| 5       	|  [Hikmet Murat](http://github.com/hmurat)	| [Nail](http://github.com/nailtosun)           	|
+| 6       	| [Yusuf Selim](https://github.com/yusufselimkaratas)	| [Batuhan](http://github.com/batuhan-bulbul)           	|
+| 7       	| [Ozan Can](http://github.com/ozancaniyier) 	| [Samet](http://github.com/sametyildirima)           	|
+| 8       	| [Huzeyfe](http://github.com/hhintoglu)  	|    [Furkan Karacabey](http://github.com/fkaracabey)          	|
+| 9       	| [Onur](http://github.com/onurmetueee) 	| [Ahmet](http://github.com/nazliogluahmet)           	|
+| 10       	|  [Etki](http://github.com/etkiacilan)	|     [Nevzat Safa](http://github.com/nevzatsafasenyayla)      	|
+| 11       	| [Berkay](http://github.com/berkaysaglam)	|  [Cem](http://github.com/cemakinci)         	|
+| 12       	|  [Enes](http://github.com/enesayaz) 	|     [Ekin Su](http://github.com/ekinsacin)      	|
+| 13       	| [Anıl Can](http://github.com/anilcanbudak)	|   [Yasin](http://github.com/yasindurmaz55)        	|
+| 14       	| [Sonay](http://github.com/sonayulukaya)  	|     [Mert](http://github.com/mertelmas)           	|
+| 15       	| [Bahar](http://github.com/bulbulbahar)  	| [Hakkı](http://github.com/hakkigulcu)   |
+| 16       	| [Özgür](http://github.com/ozgurerturk) 	| [Ali Aydın Yamandağ](http://github.com/aliaydinyamandag)  |
+| 17       	|  [Gürkan Durmuş](http://github.com/gurkandyilmaz) | [Mehmet](http://github.com/mehmetelen)   |
 

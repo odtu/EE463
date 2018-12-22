@@ -2,11 +2,11 @@
 
 ## AC to DC Motor Drive 
 
-### Deadline: TBA (After 16th of January)
+### Deadline: TBA (21th of January)
 
 In this project you are required to make a controlled rectifier that will be used to drive a DC Motor.
 
- - Power Input: 3 Phase, or 1 Phase AC Grid
+ - Power Input: 3 Phase, or 1 Phase AC Grid (Adjustable with variac)
  - Output: Adjustable DC Output
 
 You are free to choose any topology such as (but not limited to):
@@ -23,7 +23,7 @@ You are required to drive the following motor-generator sets:
 
 ![](./motor-label.jpg)
 
-We measured the motor's parameters as follows:
+Specs of the all motor windings are measured as follows:
 
  - Armature Winding: 28 Ω, 13.3 mH
  - Series Winding: 65 mΩ, 260 uH
