@@ -25,9 +25,9 @@ You are required to drive the following motor(on the left). The motor will be lo
 
 Specs of the all motor windings are measured as follows:
 
- - Armature Winding: 0.8 Ω, 12.5 mH
- - Shunt Winding: 210 Ω, 23 H
- - [Interpoles](https://www.quora.com/Electrical-Machines-What-do-interpoles-do-in-DC-motors) Winding: 0.27 Ω, 12 mH
+ - **Armature Winding:** 0.8 Ω, 12.5 mH
+ - **Shunt Winding:** 210 Ω, 23 H
+ - **[Interpoles](https://www.quora.com/Electrical-Machines-What-do-interpoles-do-in-DC-motors) Winding:** 0.27 Ω, 12 mH
  - Inertia: TBA
 
 In the project you will be supplied with a separate external DC source to feed the field winding (i.e. separately excited DC machine). However, you are free to make any other connection types such as shunt, series or compound if you want.
@@ -54,31 +54,31 @@ You can use the variac to gradually apply AC voltage to your drive, and leave it
 
 Project Outcomes:
 
-- Design Report (40 pts): A report that presents your design decisions, computer simulations, and component selection. Similar grading rules apply with previous projects (i.e. format, number of commits etc.)
+- **Design Report (40 pts):** A report that presents your design decisions, computer simulations, and component selection. Similar grading rules apply with previous projects (i.e. format, number of commits etc.)
 
-- Test Results (15 pts): This section can be added in to the design report, or submitted as a separate report. It should contain your results with the motor running (data can be collected on the demo day, but preferably earlier) The report can contain any other useful tests (i.e. functionality of the switches, tests with R load etc.)  
+- **Test Results (15 pts):** This section can be added in to the design report, or submitted as a separate report. It should contain your results with the motor running (data can be collected on the demo day, but preferably earlier) The report can contain any other useful tests (i.e. functionality of the switches, tests with R load etc.)  
 
-- Video (15 pts): A video telling your story during the design process and project implementation. It is also expected to put a demo of the working prototype. Videos of maximum 3 min should be uploaded to YouTube (or any other online video hosting website). Each team member should appear in the video.
+- **Video (15 pts):** A video telling your story during the design process and project implementation. It is also expected to put a demo of the working prototype. Videos of maximum 3 min should be uploaded to YouTube (or any other online video hosting website). Each team member should appear in the video.
 
-- Demo Day (30 pts): Each team is expected to present their prototype in the demo day. If you have a prototype, but somehow if it doesn't work on the demo day, you will get zero points from this part. However, if you don't come up with a prototype, or convince me that you put enough effort in building one, you will get zero points from the all hardware project (yes, even if you had the design report).
+- **Demo Day (30 pts):** Each team is expected to present their prototype in the demo day. If you have a prototype, but somehow if it doesn't work on the demo day, you will get zero points from this part. However, if you don't come up with a prototype, or convince me that you put enough effort in building one, you will get zero points from the all hardware project (yes, even if you had the design report).
 
 #### Bonus Parts
 
 You can get extra points (up to 25 pts for each) in any of the following:
 
-- Industrial Design Bonus: Implement your design in a PCB(or in a neat pertinaks), enclose it in a plastic/metal box (like one of [those](https://www.altinkaya.com.tr/Proje_Kutulari.html), not in a shoe box) and label input/outputs with proper connections for safe operation.
+- **Industrial Design Bonus:** Implement your design in a PCB(or in a neat pertinaks), enclose it in a plastic/metal box (like one of [those](https://www.altinkaya.com.tr/Proje_Kutulari.html), not in a shoe box) and label input/outputs with proper connections for safe operation.
 
-- Robust Design Bonus: Your drive should supply minimum 2 kW power for at least 5 minutes. If you are not aiming for this bonus, your drive should to run the motor from standstill to rated speed at no-load (but beware of high starting currents).
+- **Robust Design Bonus:** Your drive should supply minimum 2 kW power for at least 5 minutes. If you are not aiming for this bonus, your drive should to run the motor from standstill to rated speed at no-load (but beware of high starting currents).
 
-- Compactness Bonus: A bonus will be awarded to a project with the smallest volume (including all cabling, control circuitry, filters etc).
+- **Compactness Bonus:** A bonus will be awarded to a project with the smallest volume (including all cabling, control circuitry, filters etc).
 
-- Simplicity Bonus: A bonus will be awarded to the simplest solution. You chance to get this bonus is tiny if you use large filters, several semiconductors, micro-controllers.
+- **Simplicity Bonus:** A bonus will be awarded to the simplest solution. You chance to get this bonus is tiny if you use large filters, several semiconductors, micro-controllers.
 
-- Four-Quadrant Bonus: Normally you are required to make a single quadrant DC motor drive, but implement a four-quadrant drive to get this bonus.
+- **Four-Quadrant Bonus:** Normally you are required to make a single quadrant DC motor drive, but implement a four-quadrant drive to get this bonus.
 
-- Best Video Bonus: Just get creative, and try to get a fun and informative video to describe your project progress.
+- **Best Video Bonus:** Just get creative, and try to get a fun and informative video to describe your project progress.
 
-- Karma Bonus: This bonus will be awarded to one person who helps most to everyone during the project period. This bonus will be awarded by the results of anonymous voting in the demo day.
+- **Karma Bonus:** This bonus will be awarded to one person who helps most to everyone during the project period. This bonus will be awarded by the results of anonymous voting in the demo day.
 
 ### Teams:
 Teams I am aware so far:
