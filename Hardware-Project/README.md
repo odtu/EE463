@@ -1,13 +1,18 @@
 # EE 463 Hardware Project
 
-## AC to DC Motor Drive 
+## AC to DC Motor Drive
 
-### Deadline: TBA (21th of January)
+### Deadlines:
+- AC/DC Converter Part Simulation Report and Hardware Demo - 28th of October
+- Complete Simulation Report - 25th of November
+- Hardware Demo - 23rd of December
+- Final Report - 9th of January
+- Video - 23th of January
 
 In this project you are required to make a controlled rectifier that will be used to drive a DC Motor.
 
  - Power Input: 3 Phase, or 1 Phase AC Grid (Adjustable with variac)
- - Output: Adjustable DC Output (Vmax> 180 Vdc)
+ - Output: Adjustable DC Output (Vmax < 180 Vdc)
 
 You are free to choose any topology such as (but not limited to):
 
@@ -38,7 +43,7 @@ You can use the variac to gradually apply AC voltage to your drive, and leave it
 
 - Choose your partners: Each group will consist of 3 people. You are free to choose your partners.
 
-- Create a public repo: Open a public repo, which you will put all your work into. Please add [me](https://github.com/ozank) and [İlker](https://github.com/ilkersahin78) as a collaborator.
+- Create a public repo: Open a public repo, which you will put all your work into. Please add [me](https://github.com/ozank) and [Furkan](https://github.com/furkankarakaya) as a collaborator.
 
 - Topology Selection: Discuss the advantages and disadvantages of each topology, and decide on a topology. You are required prepare a document to support your decision.
 
@@ -48,19 +53,26 @@ You can use the variac to gradually apply AC voltage to your drive, and leave it
 
 - Implementation: Build a prototype as fast as possible, and keep iterating.
 
-- Demo Day: In the demo day, you are expected to present your working prototypes. You are required to start the DC motor from standstill to rated speed under no load (but still you have the inertia, and the friction) and run for 2 minutes. You are allowed to soft start your drive (i.e for charging capacitors etc) with a variac, but variac should not be used to control the voltage while the motor is running.
+- AC/DC Hardware Demo Day: You are expected to build an AC/DC converter prototype whose output is a DC waveform with ripple as minimum as possible. For the ones who choose the thyristor switches, they can keep the thyristor fully on with extra sources and they can evaluate their thyristors as diode in this step.
+
+- Final Demo Day: In the demo day, you are expected to present your working prototypes. You are required to start the DC motor from standstill to rated speed under no load (but still you have the inertia, and the friction) and run for 2 minutes. You are allowed to soft start your drive (i.e for charging capacitors etc) with a variac, but variac should not be used to control the voltage while the motor is running.
 
 ### Grading
 
 Project Outcomes:
+- **AC/DC Simulation Report (5 pts):** A report that presents your design decisions, computer simulations, and component selection about AC/DC conversion part only. Similar grading rules apply with previous projects (i.e. format, number of commits etc.)
 
-- **Design Report (40 pts):** A report that presents your design decisions, computer simulations, and component selection. Similar grading rules apply with previous projects (i.e. format, number of commits etc.)
+- **AC/DC Hardware Demo Day (5 pts):** Each team is expected to present their prototype of AC/DC converter in the demo day. If you have a prototype, but somehow if it doesn't work on the demo day, you will get zero points from this part. However, if you don't come up with a prototype, or convince me that you put enough effort in building one, you will get zero points from the all hardware project (yes, even if you had the design report).
+
+- **Complete Simulation Report (10 pts):** A report that presents your design decisions, computer simulations, and component selection for the all parts of the project. Similar grading rules apply with previous projects (i.e. format, number of commits etc.)
+
+- **Demo Day (25 pts):** Each team is expected to present their prototype in the demo day. If you have a prototype, but somehow if it doesn't work on the demo day, you will get zero points from this part. However, if you don't come up with a prototype, or convince me that you put enough effort in building one, you will get zero points from the all hardware project (yes, even if you had the design report).
 
 - **Test Results (15 pts):** This section can be added in to the design report, or submitted as a separate report. It should contain your results with the motor running (data can be collected on the demo day, but preferably earlier) The report can contain any other useful tests (i.e. functionality of the switches, tests with R load etc.)  
 
-- **Video (15 pts):** A video telling your story during the design process and project implementation. It is also expected to put a demo of the working prototype. Videos of maximum 3 min should be uploaded to YouTube (or any other online video hosting website). Each team member should appear in the video.
+- **Final Report (25 pts):** A report that presents your design decisions, computer simulations, and component selection. Similar grading rules apply with previous projects (i.e. format, number of commits etc.)
 
-- **Demo Day (30 pts):** Each team is expected to present their prototype in the demo day. If you have a prototype, but somehow if it doesn't work on the demo day, you will get zero points from this part. However, if you don't come up with a prototype, or convince me that you put enough effort in building one, you will get zero points from the all hardware project (yes, even if you had the design report).
+- **Video (15 pts):** A video telling your story during the design process and project implementation. It is also expected to put a demo of the working prototype. Videos of maximum 3 min should be uploaded to YouTube (or any other online video hosting website). Each team member should appear in the video.
 
 #### Bonus Parts
 
@@ -87,18 +99,6 @@ Teams I am aware so far:
 
 Please let me know your teams and GitHub repos if it is not listed below:
 
-- [SPARK Industries](https://github.com/hhintoglu/EE463_Hardware_Project):  Huzeyfe Hintoglu, Sadık Akyar, Muhammed Hakan Karakaya
-- [FosFos AG](https://github.com/sametyildirima/FosFos-AG):  Samet Yıldırım, Ozan Can İyier, Furkan Karacabey
-- [BiB Power]( İsmail Ataseven, Berkay Sağlam, Batuhan Bülbül): https://github.com/ismail-ataseven/BiB-Power
-- [Firing Angels](https://github.com/nailtosun/EE-463-Hardware-Project): Nail Tosun, Ali Aydın, Özgür Ertürk
-- [The Third Harmonics](https://github.com/EnesAyaz/EE463-HardwareProject):Furkan Tokgöz, Enes Ayaz, Yasin Durmaz
-- [The Mega Hurts](https://github.com/bulbulbahar/EE463_HardwareProject): Bahar Bülbül, Etki Açılan, Hakkı Gülcü
-- [K.A.R.P.U.Z.](https://github.com/gurkandyilmaz/EE463-Hardware_Project): Ali Aydın Yamandağ, Gürkan Durmuş Yılmaz, Sonay Ulukaya
-- [Freewheeling Co.](https://github.com/anilcanbudak/EE463-Hardware-Project): Anılcan Budak, Cem Akıncı, Murat Çolakoğlu
-- [A.N.](https://github.com/nazliogluahmet/EE_463_proje_AN): Ahmet Nazlıoğlu
-- [Smart Grid](https://github.com/ivenguzel/EE463-Harware_Project): Saliha İven Güzel, Ekin Su Saçın, Onur Külahlıoğlu
-- [METU LELS](https://github.com/yusufselimkaratas/463HardwareProject): Mehmet Elen, Mert Elmas, Yusuf Selim Karataş
-- [M.A.N.Power](https://github.com/nevzatsafasenyayla/M.A.N.Power): Nevzat S. Şenyayla, Akın Şavklı, Metehan Kara
 
 ### Frequently Asked Questions
 
@@ -117,10 +117,25 @@ Unfortunately, due to safety regulations, you have to work under technician supe
 
 ### Hints:
 
-For all hints please have a look at the [tips document](https://github.com/odtu/ee463/blob/master/Hardware-Project/tips.md). 
+For all hints please have a look at the [tips document](https://github.com/odtu/ee463/blob/master/Hardware-Project/tips.md).
 
 
 # Past Years' Projects
+
+### 2018 Teams
+
+- [SPARK Industries](https://github.com/hhintoglu/EE463_Hardware_Project):  Huzeyfe Hintoglu, Sadık Akyar, Muhammed Hakan Karakaya
+- [FosFos AG](https://github.com/sametyildirima/FosFos-AG):  Samet Yıldırım, Ozan Can İyier, Furkan Karacabey
+- [BiB Power]( İsmail Ataseven, Berkay Sağlam, Batuhan Bülbül): https://github.com/ismail-ataseven/BiB-Power
+- [Firing Angels](https://github.com/nailtosun/EE-463-Hardware-Project): Nail Tosun, Ali Aydın, Özgür Ertürk
+- [The Third Harmonics](https://github.com/EnesAyaz/EE463-HardwareProject):Furkan Tokgöz, Enes Ayaz, Yasin Durmaz
+- [The Mega Hurts](https://github.com/bulbulbahar/EE463_HardwareProject): Bahar Bülbül, Etki Açılan, Hakkı Gülcü
+- [K.A.R.P.U.Z.](https://github.com/gurkandyilmaz/EE463-Hardware_Project): Ali Aydın Yamandağ, Gürkan Durmuş Yılmaz, Sonay Ulukaya
+- [Freewheeling Co.](https://github.com/anilcanbudak/EE463-Hardware-Project): Anılcan Budak, Cem Akıncı, Murat Çolakoğlu
+- [A.N.](https://github.com/nazliogluahmet/EE_463_proje_AN): Ahmet Nazlıoğlu
+- [Smart Grid](https://github.com/ivenguzel/EE463-Harware_Project): Saliha İven Güzel, Ekin Su Saçın, Onur Külahlıoğlu
+- [METU LELS](https://github.com/yusufselimkaratas/463HardwareProject): Mehmet Elen, Mert Elmas, Yusuf Selim Karataş
+- [M.A.N.Power](https://github.com/nevzatsafasenyayla/M.A.N.Power): Nevzat S. Şenyayla, Akın Şavklı, Metehan Kara
 
 ### 2017 Teams
 
@@ -149,6 +164,3 @@ If your name is not listed above, please inform me asap.
 - [Shark Attack](​https://drive.google.com/open?id=1OIxgk-Lcdn7AT_PH-EiCHYb63u0lPHV_)
 - [Converting Falcons](https://www.youtube.com/watch?v=T0_olXNja7c&feature=youtu.be)
 - [Raşit](https://www.youtube.com/watch?v=tHf7YZv6PTA)
-
-
-
