@@ -52,8 +52,6 @@ You can use the variac to gradually apply AC voltage to your drive, and leave it
 
 - Implementation: Build a prototype as fast as possible, and keep iterating.
 
-- AC/DC Hardware Demo Day: You are expected to build an AC/DC converter prototype whose output is a DC waveform with ripple as minimum as possible. For the ones who choose the thyristor switches, they can keep the thyristor fully on with extra sources and they can evaluate their thyristors as diode in this step.
-
 - Final Demo Day: In the demo day, you are expected to present your working prototypes. You are required to start the DC motor from standstill to rated speed under no load (but still you have the inertia, and the friction) and run for 2 minutes. You are allowed to soft start your drive (i.e for charging capacitors etc) with a variac, but variac should not be used to control the voltage while the motor is running.
 
 ### Grading
@@ -79,7 +77,7 @@ You can get extra points (up to 25 pts for each) in any of the following:
 
 - **Robust Design Bonus:** Your drive should supply minimum 2 kW power for at least 5 minutes. If you are not aiming for this bonus, your drive has to accelerate the motor from standstill up to rated speed at no-load (but beware of high starting currents).
 
-- **Current Feedback Bonus:** Implement a current feedback (using shunt resistors or hall sensors) loop to adjust the current automatically and protect your drive against high currents.
+- **Closed-loop Voltage/Current Control Bonus:** Implement a feedback (using shunt resistors or hall sensors) loop to adjust the output voltage automatically and protect your drive against high currents.
 
 - **Compactness Bonus:** A bonus will be awarded to a project with the smallest volume (including all cabling, control circuitry, filters etc).
 
