@@ -3,8 +3,7 @@
 ## AC to DC Motor Drive
 
 ### Deadlines:
-- AC/DC Converter Part Simulation Report and Hardware Demo - 28th of October
-- Complete Simulation Report - 25th of November
+- Complete Simulation Report and Presentation for Feedback Session - 25th of November
 - Hardware Demo - 23rd of December
 - Final Report - 9th of January
 - Video - 23th of January
@@ -60,11 +59,9 @@ You can use the variac to gradually apply AC voltage to your drive, and leave it
 ### Grading
 
 Project Outcomes:
-- **AC/DC Simulation Report (5 pts):** A report that presents your design decisions, computer simulations, and component selection about AC/DC conversion part only. Similar grading rules apply with previous projects (i.e. format, number of commits etc.)
-
-- **AC/DC Hardware Demo Day (5 pts):** Each team is expected to present their prototype of AC/DC converter in the demo day. If you have a prototype, but somehow if it doesn't work on the demo day, you will get zero points from this part. However, if you don't come up with a prototype, or convince me that you put enough effort in building one, you will get zero points from the all hardware project (yes, even if you had the design report).
-
 - **Complete Simulation Report (10 pts):** A report that presents your design decisions, computer simulations, and component selection for the all parts of the project. Similar grading rules apply with previous projects (i.e. format, number of commits etc.)
+
+- **Presentation for Feedback Session (10 pts):** Each team should present their topology selection and project design. They should describe how they selected critical components and their plan for design and manufacturing.
 
 - **Demo Day (25 pts):** Each team is expected to present their prototype in the demo day. If you have a prototype, but somehow if it doesn't work on the demo day, you will get zero points from this part. However, if you don't come up with a prototype, or convince me that you put enough effort in building one, you will get zero points from the all hardware project (yes, even if you had the design report).
 
