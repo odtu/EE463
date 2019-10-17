@@ -77,7 +77,7 @@ You can get extra points (up to 25 pts for each) in any of the following:
 
 - **Robust Design Bonus:** Your drive should supply minimum 2 kW power for at least 5 minutes. If you are not aiming for this bonus, your drive has to accelerate the motor from standstill up to rated speed at no-load (but beware of high starting currents).
 
-- **Closed-loop Voltage/Current Control Bonus:** Implement a feedback (using shunt resistors or hall sensors) loop to adjust the output voltage automatically and protect your drive against high currents.
+- **Closed-loop Voltage/Current Control Bonus:** Implement a feedback loop to adjust the output voltage automatically and protect your drive against high currents.
 
 - **Compactness Bonus:** A bonus will be awarded to a project with the smallest volume (including all cabling, control circuitry, filters etc).
 

@@ -11,11 +11,11 @@ If you can not contact your team member, please let me know asap. Individual pro
 | 4       	|    Orhun Taşoğlu        	|Fahri Türedi
 | 5       	|    Ogün Altun        	|Mert Yaşar Aydın
 | 6       	|    Cemil Ürgüp        	|Canberk Duman
-| 7       	|    Emre Deniz Şenel        	|Cemal Öztürk
+| 7       	|    Cemal Öztürk
 | 8       	|    Pouya Zolfi        	|Hüseyin Şahin
 | 9       	|    Mert Zeybek        	|Kutay Delibaş
 | 10       	|    Mehmet Gürtekin        	|Paul Brown
-| 11      	|    Musa Yeli        	|Enes Taştan
+| 11      	|    Musa Yeli        	|Emre Deniz Şenel
 | 12       	|    Yunus Cem Duman       	|Sam Malek
 | 13       	|    Burak Yalçın       	|Ayşe Beyhan Türkyılmaz
 | 14       	|    Nurettin Çavuş        	|Ibrahim Duru
