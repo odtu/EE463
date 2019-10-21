@@ -42,7 +42,7 @@ You can use the variac to gradually apply AC voltage to your drive, and leave it
 
 - Choose your partners: Each group will consist of 3 people. You are free to choose your partners.
 
-- Create a public repo: Open a public repo, which you will put all your work into. Please add [me](https://github.com/ozank) and [Furkan](https://github.com/furkankarakaya) as a collaborator.
+- Create a **public repo**: Open a public repo, which you will put all your work into. Please add [me](https://github.com/ozank) and [Furkan](https://github.com/furkankarakaya) as a collaborator.
 
 - Topology Selection: Discuss the advantages and disadvantages of each topology, and decide on a topology. You are required prepare a document to support your decision.
 
@@ -75,7 +75,7 @@ You can get extra points (up to 25 pts for each) in any of the following:
 
 - **Industrial Design Bonus:** Implement your design in a PCB(or in a neat pertinaks), enclose it in a plastic/metal box (like one of [those](https://www.altinkaya.com.tr/Proje_Kutulari.html), not in a shoe box) and label input/outputs with proper connections for safe operation.
 
-- **Robust Design Bonus:** Your drive should supply minimum 2 kW power for at least 5 minutes. If you are not aiming for this bonus, your drive has to accelerate the motor from standstill up to rated speed at no-load (but beware of high starting currents).
+- **Robust Design Bonus:** Boil the water inside 1.6 kW kettle. Kettle will be fed by AC machine, which is mechanically connected to the DC motor driven by you. Your drive should supply minimum 1.6 kW power to the kettle for at least 5 minutes. If you are not aiming for this bonus, your drive has to accelerate the motor from standstill up to rated speed at no-load (but beware of high starting currents).
 
 - **Closed-loop Voltage/Current Control Bonus:** Implement a feedback loop to adjust the output voltage automatically and protect your drive against high currents.
 
@@ -90,12 +90,16 @@ You can get extra points (up to 25 pts for each) in any of the following:
 - **Karma Bonus:** This bonus will be awarded to one person who helps most to everyone during the project period. This bonus will be awarded by the results of anonymous voting in the demo day.
 
 ### Teams:
-Teams I am aware so far:
+Teams I am aware so far
 
 Please let me know your teams and GitHub repos if it is not listed below:
 
 
 ### Frequently Asked Questions
+
+- Do I need to buy all the components?
+
+No, we will provide some mostly used components, but not all of them. Plase check the [available component list](https://github.com/odtu/ee463/blob/master/Hardware-Project/components.md).
 
 - Can I use the lab before demo day?
 
@@ -114,6 +118,7 @@ Unfortunately, due to safety regulations, you have to work under technician supe
 
 For all hints please have a look at the [tips document](https://github.com/odtu/ee463/blob/master/Hardware-Project/tips.md).
 
+Have a look at the hardware project presentation by course assistants [here](https://prezi.com/zqhrvmqz0ik5/ee463-hardware-project/).
 
 # Past Years' Projects
 
