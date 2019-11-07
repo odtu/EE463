@@ -94,6 +94,45 @@ Teams I am aware so far
 
 Please let me know your teams and GitHub repos if it is not listed below:
 
+- [Three Pole Machine]():  
+ Ogün Altun,
+ Emre Deniz Şenel,
+ Fahri Türedi
+- [Blue Smoke]():  
+Paul BROWN,
+İbrahim DURU,
+Mustafa ŞAHİN
+- [3 Phases 1 Company]():
+Orhun Taşoğlu,
+Kutay Delibaş,
+Mert Zeybek
+- [M.P.W.U electronics]():
+Burak kemal KARA,
+Cem DUMAN,
+Mert Yaşar AYDIN
+- [N.A.M.-I Power]():
+Nevzat S. Şenyayla,
+Asya Bal,
+Muhammed Barış,
+Sam Ghassemi
+- [Kara Şimşekler]():
+Deniz Boran KARACA,
+Nurettin ÇAVUŞ,
+Ahmet Talat ÖZMÜSLÜMAN
+- [No Name]():
+Habibullah Koçoğlu,
+Cemal Öztürk,
+Cemil Ürgüp
+- [Ree-Wired]():
+Beyhan Türkyılmaz,
+Mehmet Gürtekin,
+Burak Yalçın
+- [Dynamic Power]():
+Hamza SOLAK,
+Musa YELİ,
+Canberk DUMAN
+
+
 
 ### Frequently Asked Questions
 
