@@ -3,7 +3,7 @@
 ## AC to DC Motor Drive
 
 ### Deadlines:
-- Complete Simulation Report and Presentation for Feedback Session - 25th of November
+- Complete Simulation Report and Presentation for Feedback Session - 2nd of December
 - Hardware Demo - 23rd of December
 - Final Report - 9th of January
 - Video - 23th of January
