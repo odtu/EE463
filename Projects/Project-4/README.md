@@ -2,7 +2,7 @@
 
 ## DC/DC CONVERTERS
 
-### Deadline: 22/12/2019 23:59
+### Deadline: 21/12/2019 23:59
 
 Please check [Teams.md](Teams.md) and [evaluation.md](evaluation.md) for other details and evaluation criteria about the project. Open a **private repository**, which you will put all your work into. Please add me(/ozank), Gökhan(/gkhnckl) or Furkan(/furkankarakaya) as a collaborator.
 
