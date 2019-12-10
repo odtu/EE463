@@ -73,6 +73,8 @@ Project Outcomes:
 
 You can get extra points (up to 25 pts for each) in any of the following:
 
+- **Utilization Bonus:** The voltage and current ratings of each type of power semiconductor you use in the circuitry will be multiplied and then they will be summed to obtain a utilization value. This means the diode you use in the rectifier will be counted for once. Three groups with minimum values will be awarded with extra point.
+
 - **Industrial Design Bonus:** Implement your design in a PCB(or in a neat pertinaks), enclose it in a plastic/metal box (like one of [those](https://www.altinkaya.com.tr/Proje_Kutulari.html), not in a shoe box) and label input/outputs with proper connections for safe operation.
 
 - **Robust Design Bonus:** Boil the water inside 1.6 kW kettle. Kettle will be fed by AC machine, which is mechanically connected to the DC motor driven by you. Your drive should supply minimum 1.6 kW power to the kettle for at least 5 minutes. If you are not aiming for this bonus, your drive has to accelerate the motor from standstill up to rated speed at no-load (but beware of high starting currents).
