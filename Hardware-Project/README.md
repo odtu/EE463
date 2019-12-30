@@ -5,8 +5,8 @@
 ### Deadlines:
 - Complete Simulation Report and Presentation for Feedback Session - 2nd of December
 - Hardware Demo - 23rd of December
-- Final Report - 9th of January
-- Video - 23th of January
+- Final Report - 15th of January
+- Video - 15th of January
 
 In this project you are required to make a controlled rectifier that will be used to drive a DC Motor.
 
