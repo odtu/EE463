@@ -91,51 +91,6 @@ You can get extra points (up to 25 pts for each) in any of the following:
 
 - **Karma Bonus:** This bonus will be awarded to one person who helps most to everyone during the project period. This bonus will be awarded by the results of anonymous voting in the demo day.
 
-### Teams:
-Teams I am aware so far
-
-Please let me know your teams and GitHub repos if it is not listed below:
-
-- [Three Pole Machine]():  
- Ogün Altun,
- Emre Deniz Şenel,
- Fahri Türedi
-- [Blue Smoke]():  
-Paul BROWN,
-İbrahim DURU,
-Mustafa ŞAHİN
-- [3 Phases 1 Company]():
-Orhun Taşoğlu,
-Kutay Delibaş,
-Mert Zeybek
-- [M.P.W.U electronics]():
-Burak kemal KARA,
-Cem DUMAN,
-Mert Yaşar AYDIN
-- [N.A.M.-I Power]():
-Nevzat S. Şenyayla,
-Asya Bal,
-Muhammed Barış,
-Sam Ghassemi
-- [Kara Şimşekler]():
-Deniz Boran KARACA,
-Nurettin ÇAVUŞ,
-Ahmet Talat ÖZMÜSLÜMAN
-- [No Name]():
-Habibullah Koçoğlu,
-Cemal Öztürk,
-Cemil Ürgüp
-- [Ree-Wired]():
-Beyhan Türkyılmaz,
-Mehmet Gürtekin,
-Burak Yalçın
-- [Dynamic Power]():
-Hamza SOLAK,
-Musa YELİ,
-Canberk DUMAN
-
-
-
 ### Frequently Asked Questions
 
 - Do I need to buy all the components?
@@ -162,6 +117,29 @@ For all hints please have a look at the [tips document](https://github.com/odtu/
 Have a look at the hardware project presentation by course assistants [here](https://prezi.com/zqhrvmqz0ik5/ee463-hardware-project/).
 
 # Past Years' Projects
+
+### 2019 Teams
+
+- [Three Pole Machine](https://github.com/edsenel/ThreePoleMachine): Ogün Altun, Emre Deniz Şenel,  Fahri Türedi
+- [Blue Smoke](https://github.com/pdb5627/ee463-hardware-project): Paul BROWN, İbrahim DURU, Mustafa ŞAHİN
+- [3 Phases 1 Company](https://github.com/m-zeybek/3P1C_Hardware_Project): Orhun Taşoğlu, Kutay Delibaş, Mert Zeybek
+- [M.P.W.U electronics](https://github.com/MERTAYDIN46/EE463_HardwareProject-M.P.W.U-electronics-): Burak kemal KARA, Cem DUMAN, Mert Yaşar AYDIN
+- [N.A.M.-I Power](https://github.com/sammalek0/EE463-HardwareProject-N.A.M-I-Power): Nevzat S. Şenyayla, Muhammed Barış, Sam Ghassemi
+- [Kara Şimşekler](https://github.com/nurettincavus/463karasimsekler): Deniz Boran KARACA, Nurettin ÇAVUŞ
+- [Ostim Rectifiers](https://github.com/CemilUrgup/EE463-Hardware-Project-Ostim-Rectifiers): Habibullah Koçoğlu, Cemal Öztürk, Cemil Ürgüp
+- [Ree-Wired](https://github.com/buryalcin/ReeWired): Beyhan Türkyılmaz, Mehmet Gürtekin, Burak Yalçın
+- [Dynamic Power](https://github.com/musayeli/463-HARDWARE-Project): Hamza SOLAK, Musa YELİ, Canberk DUMAN
+
+### 2019 Videos
+
+- [Three Pole Machine](https://www.youtube.com/watch?v=YZUBasKc0Og)
+- [3 Phases 1 Company](https://www.youtube.com/watch?v=jqYrZNpZuFA)
+- [M.P.W.U electronics](https://www.youtube.com/watch?v=vqz0xIiDz8E)
+- [N.A.M.-I Power](https://www.youtube.com/watch?v=fzA787_wp4Y) (Best Video Bonus Winner)
+- [Kara Şimşekler](https://drive.google.com/file/d/1u6mGx2txVA8GeNq95FOMn25f3ItVCYUt/view)
+- [Ostim Rectifiers](https://www.youtube.com/watch?v=GmYoqUheJWo)
+- [Ree-Wired](https://www.youtube.com/watch?v=QtswupaRqzg)
+- [Dynamic Power](https://www.youtube.com/watch?v=q_Ks-do5HX4)
 
 ### 2018 Teams
 
@@ -190,8 +168,6 @@ Have a look at the hardware project presentation by course assistants [here](htt
 - [Shark Attack: Celal, Abdurrahman, Tugay](https://github.com/celalkavlak/EE463_Hardware_Project)
 - [Converting Falcons: Cem, Ayberk Kaan, Olgun](https://github.com/OlgunErdogan/Converting_Falcons)
 - [Raşit](https://github.com/rasitgokmen/EE463-Project)
-
-If your name is not listed above, please inform me asap.
 
 ### 2017 Videos:
 
