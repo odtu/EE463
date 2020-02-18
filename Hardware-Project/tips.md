@@ -1,4 +1,4 @@
-# EE 463 Hardware Project Tips
+# Hardware Project Tips
 
 **REMEMBER ALWAYS SAFETY FIRST!**
 
@@ -10,7 +10,7 @@ Therefore, I strongly advise you to start working immediately, and:
 
 ![](http://img.picturequotes.com/2/244/243483/fail-early-fail-often-in-order-to-succeed-sooner-quote-1.jpg)
 
-Here's a few tips for you. Please remember all of these items are based on real experiences. Please consider each of them. 
+Here's a few tips for you. Please remember all of these items are based on real experiences. Please consider each of them.
 
 ----
 
