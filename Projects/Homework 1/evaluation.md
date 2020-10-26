@@ -4,11 +4,11 @@
 Here are the important points for Project #1
 
 - You will complete the project in pairs.
-- You are required to create one Github repo in one of the team member's account. Then please add me (/ozank), Furkan (/furkankarakaya) and Gökhan (/gkhnckl) as contributors. Each partner is required to contribute to the work.
+- You are required to create one Github repo in one of the team member's account. Then please add Furkan T. (/tokgozfurkan), Furkan (/furkankarakaya) as collaborators. Each partner is required to contribute to the work.
 - You can use any simulation software you want, but it is advised to use MATLAB Simulink (A tutorial will be organized).
 - At the end of the project, you are required to submit a project report (in PDF) to ODTUClass. Both this report and your source files in the GitHub repo will be used for grading.
 - Reports will be checked using Turnitin, and copying will not be tolerated. Even if you find a report, so that you can inspire, you are limiting of what you can learn from this course. Don't fool yourself, and do your projects with your team member only.
-- Late submissions will be available in a week after the deadline but the homework will be graded over 85 pts. (-15% reduction for late submissions)
+- Late submissions will be available in 3 days after the deadline but the homework will be graded over 85 pts. (-15% reduction for late submissions)
 
 ## Evaluation
 
@@ -22,7 +22,7 @@ The project will be evaluated using the following guideline:
 
 ## Number of Commits:
 
-In this project the minimum expected number of commits on different days is 3. Each days you made at least one commit is 5 points (saturating at 15 points).  The following rules apply:
+In this project the minimum expected number of commits on different days is 2. Each days you made at least one commit is 5 points (saturating at 10 points).  The following rules apply:
 
 - Each student will be evaluated personally. So please make sure each team member contributes.
 
@@ -46,39 +46,33 @@ You report quality will be evaluated using the following criteria:
 - The report has an introduction section that briefly explains the content and the aims of the report
 - The report organized properly with clear sections and subsections
 - All figures and tables have proper captions
+- Figures are given with white background
 - The graphs have proper axes labels and font size of labels is adequate
 - No grammar/spelling errors and very well-written report (hint: use spell-check)
+- Use *Copy Figure* command of MATLAB instead of screenshot
+- No equations or any comments presented as a photo of written copy
 
-If the report is not qualified well enough, the report will be rejected and students will be asked to resubmit the report in one week. The second submissions or late submissions will be evaluated over 85 pts.
+If the report is not qualified well enough, the report will be rejected and students will be asked to resubmit the report in three days. The second submissions or late submissions will be evaluated over 85 pts.
 
 ## Technical Level:
 
 Following grades will be applied for the technical parts:
 
-- Q1: 15 pts
-	- a) 2 pts
-	- b) 3 pts
-	- c) 5 pts
-	- d) 5 pts
+- Q1: 30 pts
+	- a) 4 pts
+	- b) 6 pts
+	- c) 10 pts
+	- d) 10 pts
 
 
-- Q2: 30 pts
-	- a) 3 pts
-	- b) 3 pts
+- Q2: 50 pts
+	- a) 4 pts
+	- b) 4 pts
 	- c) 2 pts
-	- d) 5 pts
-	- e) 5 pts
-	- f) 6 pts
-	- g) 6 pts
-
-
-- Q3: 35 pts
-	- a) 3 pts
-	- b) 5 pts
-	- c) 5 pts
-	- d) 5 pts
-	- e) 5 pts
-	- f) 7 pts
+	- d) 8 pts
+	- e) 8 pts
+	- f) 12 pts
+	- g) 12 pts
 
 
 - Q4 (Bonus): 1 pts
