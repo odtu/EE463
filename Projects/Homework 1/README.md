@@ -2,7 +2,7 @@
 
 ## Single Phase Diode Rectifiers
 
-### Deadline: 01/11/2019 23:59
+### Deadline: 01/11/2020 23:59
 
 
 Please check [evaluation.md](evaluation.md) for other details and evaluation criteria about the project. Open a **private repository**, which you will put all your work into. Please add Furkan T.(/tokgozfurkan), Furkan K.(/furkankarakaya) as a collaborator.
