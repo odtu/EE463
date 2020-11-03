@@ -1,6 +1,6 @@
 # EE 463 PROJECT#2
 
-## Single Phase Diode Rectifiers
+## Three Phase Diode Rectifiers
 
 ### Deadline: 10/11/2019 23:59
 
