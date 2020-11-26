@@ -10,8 +10,8 @@ If you can not contact your team member, please let me know asap. Individual pro
 | 3       	|    Ali Belli| Gorkem Gulletutan
 | 4       	|    Berkay Uzun| Emre Karabakla
 | 5       	|    Ahmet Halis Sabirli| Onur Oztas
-| 6       	|    Ceyhun Koc| Emin Un
-| 7       	|    Defne Nur Korkmaz| Yunus Cay
+| 6       	|    Ceyhun Koc| Yunus Cay
+| 7       	|    Defne Nur Korkmaz| Emin Un
 | 8       	|    Fethi Umur Ersoy| Mustafa Yildiz
 | 9       	|    Fatih Serdar Saglam| Eren Ozkara
 | 10       	|    Enes Canbolat| Mustafa Mert Sarikaya
