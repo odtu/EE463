@@ -2,7 +2,7 @@
 
 ## Boost Converter
 
-### Deadline: 13/1/2020 23:59
+### Deadline: 13/1/2021 23:59
 
 Please check [evaluation.md](evaluation.md) for other details and evaluation criteria about the project. Open a **private repository**, which you will put all your work into. Please add Tokgoz(/tokgozfurkan) and Karakaya(/furkankarakaya) as a collaborator.
 
