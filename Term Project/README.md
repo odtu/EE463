@@ -1,12 +1,12 @@
 # EE 463 Hardware Project
 
-## AC to DC Motor Drive
+## Wind Turbine Controller
 
 ### Deadlines:
 - Simulation Report and Presentation for Feedback Session - 25th of December
-- Final Report - 10th of January
-- Final Presentation - 17th of January
-- Video - 20th of January
+- Final Report - 15th of January
+- Final Presentation - 23th of January
+- Video - 25th of January
 
 You are free to choose any topology such as (but not limited to):
  - 3-Phase Thyristor Rectifier
@@ -76,7 +76,7 @@ There will be bonuses for some groups -not necessarily to a single group-. You c
 
 - **Industrial Product Bonus:** A bonus will be awarded to a project with the smallest volume (including all cabling, control circuitry, filters etc). This bonus will apply to those students who put 3D models to their PCB design. You should put the circuit in a box, whose examples can be found in this [website](https://www.altinkaya.com.tr/). When calculating volume of the design, volume of the box will be used.
 
-- **Cheapest Design Bonus:** A bonus will be awarded to the cheapest solution. You should find all the circuit components that your are going to use in Digikey and offer a Bill of Materials (BOM).
+- **Cheapest Design Bonus:** A bonus will be awarded to design with the cheapest unit price. You should find the costs of all the circuit components that your are going to use in Digikey for 1000 pieces and offer a Bill of Materials (BOM). You should also include the cost of PCB  using [PCBway](https://www.pcbway.com/) for again 1000 pieces.
 
 - **Thermal Simulation Bonus:** This bonus will be given to students who run a thermal simulation on a CAD program such as Autocad, Solidworks etc. You should use the 3D model of your PCB and thermal loss calculations to run the simulations. If you are using a heatsink, you should add the heatsink model as well.
 
@@ -96,6 +96,14 @@ Have a look at the hardware project presentation by course assistants [here](htt
 # Past Years' Projects
 
 ### 2020 Teams
+
+- [Kardeşler Elektronik A.Ş](https://github.com/EnesCanbolat/EE463-Project): Enes Canbolat, Emin Un,  Berkay Uzun
+- [Power Quality](https://github.com/alpercak/EE463_TermProject.git): Mustafa Mert SARIKAYA, Alper ÇAKIROĞLU, Fatih Serdar SAĞLAM
+- [Power Guide](https://github.com/busranurkocak/EE463-Term-Project): Eren ÖZKARA, Yunus ÇAY, Büşranur KOÇAK
+- [Distanced Power Solutions Inc.](https://github.com/ceyhunkocc/EE463-TermProject.git): Ceyhun KOÇ, Defnenur KORKMAZ, Görkem GÜLLETUTAN
+- [Unlimited Power!](https://github.com/onuroztas1/EE463_Project_Onur_Halis_Halid.git): Ahmet Halis Sabırlı, Halid Filiz, Onur Öztaş, Emre Karabakla
+- [Deadly Viper Assassination Squad Inc.](https://github.com/mehmetkl/EE463-Term-Project.git): Mustafa Yıldız, Ali Belli, Mehmet Kılıç
+
 
 ### 2020 Videos
 
