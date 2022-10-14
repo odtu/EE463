@@ -1,4 +1,4 @@
-# EE463 (2021-2022 Fall Semester)
+# EE463 (2022-2023 Fall Semester)
 
 This is the GitHub repo for METU EE463-Static Power Conversion-I course.
 
