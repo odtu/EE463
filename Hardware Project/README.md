@@ -10,7 +10,7 @@
 
 ### Project Description:
 
-In this project you are required to design a battery charger. The input power of the charger is supplied by a small wind turbine generator. Your design should regulate the incoming power from wind turbine generator to feed the load and charge the battery. Thus, an AC to DC type power converter circuit has to be designed with required control actions because there are limitations for batteries in terms of their voltage and charge. Propose a solution which can regulate the output current while the input voltage is varied because of the changing wind speed.
+In this project you are required to design a battery charger. The input power of the charger is supplied by a small wind turbine generator. Your design should regulate the incoming power from wind turbine generator to feed the load and charge the [battery](https://github.com/odtu/ee463/blob/master/Hardware%20Project/battery.jpeg). Thus, an AC to DC type power converter circuit has to be designed with required control actions because there are limitations for batteries in terms of their voltage and charge. Propose a solution which can regulate the output current while the input voltage is varied because of the changing wind speed.
 
 ![](WTG_Drawing.svg)
 
