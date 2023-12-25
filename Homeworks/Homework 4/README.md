@@ -44,7 +44,7 @@ In step-up DC/DC converter, let input voltage range be 12-24 V and output voltag
 * Diode voltage and current
 * Switch voltage and current
 
-**d)** Assuming the switches and capacitors are ideal, but the inductor has a non-zero ESR, derive the voltage gain as a function of duty cycle (d), inductor ESR (r) and load resistance (R<sub>Load). Show your steps clearly. On the MATLAB, plot the voltage gain with and without ESR on the same graph as a function of duty cycle assuming that ESR is 100 mΩ and rated load is connected. Comment on the results.
+**d)** Assuming the switches and capacitors are ideal, but the inductor has a non-zero ESR, derive the voltage gain as a function of duty cycle (d), inductor ESR (r) and load resistance (R<sub>Load</sub>). Show your steps clearly. On the MATLAB, plot the voltage gain with and without ESR on the same graph as a function of duty cycle assuming that ESR is 100 mΩ and rated load is connected. Comment on the results.
 
 **e)** Repeat the same steps in part-d for the converter efficiency.
 
