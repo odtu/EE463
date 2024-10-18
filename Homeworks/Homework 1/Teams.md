@@ -12,10 +12,9 @@ If you can not contact your team member, please let me know as soon as possible.
 | 5       	|MUHAMMET KAMER TAHA GENÇ	|ÖYKÜ KAYAN
 | 6       	|YAĞIZ UTKU TİRYAKİ	|ISMAYIL NESIBOV
 | 7       	|ABDULLAH BERKAY ÇETİNER	|MUSTAFA AYTUNÇ EVLİCE
-| 8       	|KADİR OZEN	|YUSUF TOPRAK YILDIRAN
+| 8       	|SEFER İDACI		|YUSUF TOPRAK YILDIRAN
 | 9		|VUGAR NAMAZOV	|VEYSEL UYSAN
 | 10		|ELİF ÇAĞLA KILINÇ	|MUSTAFA BURAK ÇORUK
 | 11		|TAHA	YURTOĞLU	|HAMZA SOLMAZ
-| 12		|SEFER İDACI	
 
 If your name is not listed above, please let me know.
