@@ -31,7 +31,7 @@ Specs of the all motor windings are measured as follows:
  - **Shunt Winding:** 210 Ω, 23 H
  - **[Interpoles](https://www.quora.com/Electrical-Machines-What-do-interpoles-do-in-DC-motors) Winding:** 0.27 Ω, 12 mH
 
-In the project you will be supplied with a separate external DC source to feed the field winding (i.e. separately excited DC machine). However, you are free to make any other connection types such as shunt, series or compound if you want. You can use maximum two supply -excluding field excitation but including the main power source- to feed your motor driver circuitry. You must use the colour coded (positive red, negative black) banana plug connectors which will be given to you as input and output terminals of your design. Check out the [available component list](https://github.com/odtu/ee463/blob/master/Term%20Project/components.md).
+In the project you will be supplied with a separate external DC source to feed the field winding (i.e. separately excited DC machine). However, you are free to make any other connection types such as shunt, series or compound if you want. You can use maximum two supply -excluding field excitation but including the main power source- to feed your motor driver circuitry. You must use the colour coded (positive red, negative black) banana plug connectors which will be given to you as input and output terminals of your design. Check out the [available component list](https://github.com/odtu/ee463/blob/master/Hardware%20Project/components.md).
 
 You can use the variac to gradually apply AC voltage to your drive, and leave it any value you want, **but you can not use variac to control voltage during operation.**
 
@@ -96,7 +96,7 @@ You can get extra points in any of the following. In order to get bonus points, 
 
 - Do I need to buy all the components?
 
-No, we will provide some mostly used components, but not all of them. Please check the [available component list](https://github.com/odtu/ee463/blob/master/Term%20Project/components.md).
+No, we will provide some mostly used components, but not all of them. Please check the [available component list](https://github.com/odtu/ee463/blob/master/Hardware%20Project/components.md).
 
 - Can I use the lab before demo day?
 
@@ -112,17 +112,17 @@ Unfortunately, due to safety regulations, you have to work only under technician
 
 ### Hints:
 
-For all hints please have a look at the [tips document](https://github.com/odtu/ee463/blob/master/Term%20Project/tips.md).
+For all hints please have a look at the [tips document](https://github.com/odtu/ee463/blob/master/Hardware%20Project/tips.md).
 
 # Past Years' Projects
 
 ### 2023 Teams
 
-- [Battery Voltas](Doruk Yazıcı, Elif Topaloğlu, Erkin Atay Toka): https://github.com/onurtoprak1/EE463_PROJECT
-- [DoesNotHertz](Birkan Genç, Ali Taşkıran, Erdem Canaz): https://github.com/BirkanG/EE463-Hardware-Project
-- [The Switcher](Abdülkadir Gürbüz, Alperen Kurşun, Onur Emirhan Çon): https://github.com/Grbz25/EE463_Project
-- [SoC](Canberk Kaçan, Selen Özge Özgür, Onat Şimşek): https://github.com/ozgurselenozge/EE463-Hardware-Project
-- [Göklerde Charger Gibiydim](Onur Toprak, Caner Aydın, Çağlar Umut Özten): https://github.com/onurtoprak1/EE463_PROJECT
+- [Battery Voltas](https://github.com/onurtoprak1/EE463_PROJECT): Doruk Yazıcı, Elif Topaloğlu, Erkin Atay Toka
+- [DoesNotHertz](https://github.com/BirkanG/EE463-Hardware-Project): Birkan Genç, Ali Taşkıran, Erdem Canaz
+- [The Switcher](https://github.com/Grbz25/EE463_Project): Abdülkadir Gürbüz, Alperen Kurşun, Onur Emirhan Çon
+- [SoC](https://github.com/ozgurselenozge/EE463-Hardware-Project): Canberk Kaçan, Selen Özge Özgür, Onat Şimşek
+- [Göklerde Charger Gibiydim](https://github.com/onurtoprak1/EE463_PROJECT): Onur Toprak, Caner Aydın, Çağlar Umut Özten
 
 ### 2022 Teams
 
