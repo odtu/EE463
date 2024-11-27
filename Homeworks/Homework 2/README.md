@@ -2,7 +2,7 @@
 
 ## Device Parameters
 
-### Deadline: 24/11/2024 23:59
+### Deadline: 01/12/2024 23:59
 
 Please check [evaluation.md](evaluation.md) for other details and evaluation criteria about the project. Open a **private repository**, which you will put all your work into. Please add [Ogün](https://github.com/OgunAltun) as a collaborator.
 
@@ -49,7 +49,7 @@ A step-down DC/DC converter will be used in regulated power supply. The specific
 * Diode voltage and current
 * Switch voltage and current
 
-**d)** What is inrush current, define it. Considering the case in part-d, what is your inrush current at input current for this case. Propose a method to avoid inrush current and implement your solution to your simulation model. Compare the results by plotting the cases in this part and part-d.
+**d)** What is inrush current, define it. Considering the case in part-c, what is your inrush current at input current for this case. Propose a method to avoid inrush current and implement your solution to your simulation model. Compare the results by plotting the cases in this part and part-c.
 
 **4) Boost Converter**<br />
 
