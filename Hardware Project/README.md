@@ -4,8 +4,8 @@
 
 ### Deadlines:
 - Complete Simulation Report and Presentation for Feedback Session - 24th of November
-- Hardware Demo - 3th of January
-- Final Report - 18th of January
+- Final Report - 20th  of January
+- Demo - 21st of January
 
 In this project you are required to make a controlled rectifier that will be used to drive a DC Motor.
 
@@ -31,7 +31,7 @@ Specs of the all motor windings are measured as follows:
  - **Shunt Winding:** 210 Ω, 23 H
  - **[Interpoles](https://www.quora.com/Electrical-Machines-What-do-interpoles-do-in-DC-motors) Winding:** 0.27 Ω, 12 mH
 
-In the project you will be supplied with a separate external DC source to feed the field winding (i.e. separately excited DC machine). However, you are free to make any other connection types such as shunt, series or compound if you want. You can use maximum two supply -excluding field excitation but including the main power source- to feed your motor driver circuitry. You must use the colour coded (positive red, negative black) banana plug connectors which will be given to you as input and output terminals of your design. Check out the [available component list](https://github.com/odtu/ee463/blob/master/Hardware%20Project/components.md).
+In the project you will be supplied with a separate external DC source to feed the field winding (i.e. separately excited DC machine). However, you are free to make any other connection types such as shunt, series or compound if you want. You can use maximum two supply -excluding field excitation but including the main power source- to feed your motor driver circuitry. You must use the colour coded (positive red, negative black) banana plug connectors which will be given to you as input and output terminals of your design. Check out the [available component list](https://github.com/odtu/ee463/blob/master/Term%20Project/components.md).
 
 You can use the variac to gradually apply AC voltage to your drive, and leave it any value you want, **but you can not use variac to control voltage during operation.**
 
@@ -47,9 +47,16 @@ You can use the variac to gradually apply AC voltage to your drive, and leave it
 
 - Component Selection: According to your analytical calculations and computer simulations decide on which components you are going to use. Not only choose the power components, but also decide on the control, and auxiliary components. Don't forget to plan logistics, it may take weeks to get some components.
 
-- Implementation: Build a prototype as fast as possible, and keep iterating. You can try your design on breadborad (not suggested), but on the demo day your design should be implemented on a stripboard or PCB.
+- Deatiled simulation: Simulate your design with all possible non idealities with your selected component values. Some non-idealities you can add in your simulations (You can add more based on your detail level):
+   - Diode and switch resistances/capacitances.
+   - Parasitic capacitances, inductances due to connections and PCB layouts. (You do not neet to find the parasitic impedances of your PCB design but research on the reasonable values.)
+   - ESR, ESL values of capacitors you have chosed.
 
-- Final Demo Day: In the demo day, you are expected to present your working prototypes. You are required to start the DC motor from standstill to rated speed under no load (but still you have the inertia, and the friction) and run for 2 minutes. You are allowed to soft start your drive (i.e for charging capacitors etc) with a variac, but variac should not be used to control the voltage while the motor is running.
+- Closed loop simulation: Also implement a controller so that you have over the control of the speed of the machine. Present the controller performance and important operation values such as motor current, motor voltage etc.
+   - You can control the speed of the machine with PI control blocks of your simulation enviroment. The detail of your controller design is your design choice.
+   - Note that your controller must work fine and have a good current/voltage values to get a full credit for Demo grade.
+
+- Implementation: Using PCB design softwares such as KiCad, Altium Designer, Proteus, construct the schematic of your design. Add all footprints and 3D models of the components that you have used. Then, draw the PCB layout of the designed circuit while concerning practical usage. Some [tips](https://jlcpcb.com/blog/effective-pcb-layouts-for-switching-regulators) about PCB layout can be helpful in this part of the project. Add 3D model of the circuit components. You can use following websites to find 3D models: [Snapeda](https://www.snapeda.com/), [3D Content](https://www.3dcontentcentral.com/).
 
 ### Grading
 
@@ -58,45 +65,31 @@ Project Outcomes:
 
 - **Presentation for Feedback Session (15 pts):** Each team should present their topology selection and project design. They should describe how they selected critical components and their plan for design and manufacturing.
 
-- **Demo Day (30 pts):** Each team is expected to present their prototype in the demo day. If you have a prototype, but somehow if it doesn't work on the demo day, you will get zero points from this part. However, if you don't come up with a prototype, or convince us that you put enough effort in building one, you will get zero points from the all hardware project (yes, even if you had the design report).
+- **Demo & Final Presentation (45 pts):** Each team will present their final simulation results. We will review and evaluate your simulation files together, discussing the points you focused on during modeling and the corresponding outcomes. Similarly, we will also conduct an evaluation based on your PCB design. 
 
-- **Final Report and Test Results (40 pts):** A report that presents your design decisions, computer simulations, component selection and test results. It should contain your results with the motor running (data can be collected on the demo day, but preferably earlier). The report can contain any other useful tests (i.e. functionality of the switches, tests with R load etc).  
+- **Final Report (25 pts):** A report that presents your design decisions, component selection, complete computer simulations and PCB design.
 
 #### Bonus Parts
 
-You can get extra points in any of the following. In order to get bonus points, your design should meet the minimum requirements. *Start the DC motor from standstill to rated speed and run for 2 minutes.*
+There will be bonuses for some groups -not necessarily to a single group-. You can get extra points in any of the following.
 
-- **Topolgy Bonus:** Unique topologies will be rewarded. If you select a converter topology that no other groups use, you will be awarded by full bonus. If only two groups use the same topology, half bonus will be given for each. If three or more groups use the same topology, no bonus will be given for those groups.
+- **Thermal Simulation (10 pts):** Add thermal models of your design to simulation software and provide the results of thermal/electrical co-simulation. You can use Simulink or PLECS thermal simulaitons.
 
-- **Tea Bonus:** Boil the water inside 2 kW kettle. Kettle will be fed by AC machine, which is mechanically connected to the DC motor driven by your driver. The drive should supply minimum 2 kW power to the kettle for at least 5 minutes. You will also enjoy the tea of triumph after successfully boiling the water in the kettle.
+- **Industrial Design Bonus (10 pts):** This bonus will apply to those students who put 3D models to their PCB design. You should also design a proper box for your PCB design and present with 3D model of the designed PCB.
 
-- **PCB Bonus:** Implement your design on PCB. You can use PCB design softwares such as KiCad, Altium Designer, Proteus, Autocad Eagle, etc.
+- **Single Supply Bonus (10 pts):** If you could feed the driver circuitry using only single supply (main power input: 3 Phase, or 1 Phase AC), you will be awarded with this bonus. You should simulate and present how your circuit operates with single supply.
 
-- **Utilization Bonus:** A bonus will be awarded to design with the tightest semiconductor ratings. Total Voltage-Ampere rating of power semiconductors will be evaluated.
+- **Analog Current Controller Bonus (10 pts):** Simulate your converter circuit with a proper current controller using analog controllers. You can simulate analog controllers in LTspice or any other simulation software having models of controllers.
 
-- **Efficiency Bonus:** The project with the highest efficiency at rated load (2 kW) will be awarded with this bonus.
+- **Hardware Demo (30 pts):** Present your working prototypes. You are required to start the DC motor from standstill to rated speed under no load (but still you have the inertia, and the friction) and run for 2 minutes. You are allowed to soft start your drive (i.e for charging capacitors etc) with a variac, but variac should not be used to control the voltage while the motor is running.
 
-- **Industrial Design Bonus:** Enclose your design in a plastic/metal box (like one of [those](https://www.altinkaya.com.tr/Proje_Kutulari.html), not in a shoe box) and **label input/outputs with proper connections for safe operation.** You can design and 3D print your housing by using 3D printer available in our department. You can contact with [Mesut Özer](https://eee.metu.edu.tr/personel/mesut-ozer) for details of 3D printing process or you can use the 3D printer in the Ground Lab. Secure the board and connections so that it does not get damaged when it is subjected to vibrations.
-
-- **Compactness Bonus:** A bonus will be awarded to a project with the smallest volume (including all cabling, control circuitry, filters, connectors etc). The volume of the design will be calculated by finding the smallest possible rectangular prism that can contain the design. You must get Industrial Design Bonus to be eligible for this bonus.
-
-- **Single Supply Bonus:** If you could feed the driver circuitry using only single supply (main power input: 3 Phase, or 1 Phase AC), you will be awarded with this bonus.
-
-- **Analog Controller Bonus:** If an analog controller is used to control the drive rather than a digital controller a bonus will be awarded.
-
-- **Four-Quadrant Bonus:** Normally you are required to make a single quadrant DC motor drive, but implement a four-quadrant drive to get this bonus.
-
-- **Closed-loop Voltage/Current Control Bonus:** Implement a feedback loop to adjust the output voltage automatically and protect your drive against high currents.
-
-- **Closed-loop Speed Control Bonus:** Implement a feedback loop to adjust the speed of the motor automatically.
-
-- **Karma Bonus:** This bonus will be awarded to one person who helps most to everyone during the project period. This bonus will be awarded by the results of anonymous voting in the demo day.
+- **Karma Bonus (10 pts):** This bonus will be awarded to one person who helps most to everyone during the project period. This bonus will be awarded by the results of anonymous voting on ODTÜClass.
 
 ### Frequently Asked Questions
 
 - Do I need to buy all the components?
 
-No, we will provide some mostly used components, but not all of them. Please check the [available component list](https://github.com/odtu/ee463/blob/master/Hardware%20Project/components.md).
+No, we will provide some mostly used components, but not all of them. Please check the [available component list](https://github.com/odtu/ee463/blob/master/Term%20Project/components.md).
 
 - Can I use the lab before demo day?
 
@@ -112,17 +105,17 @@ Unfortunately, due to safety regulations, you have to work only under technician
 
 ### Hints:
 
-For all hints please have a look at the [tips document](https://github.com/odtu/ee463/blob/master/Hardware%20Project/tips.md).
+For all hints please have a look at the [tips document](https://github.com/odtu/ee463/blob/master/Term%20Project/tips.md).
 
 # Past Years' Projects
 
 ### 2023 Teams
 
-- [Battery Voltas](https://github.com/onurtoprak1/EE463_PROJECT): Doruk Yazıcı, Elif Topaloğlu, Erkin Atay Toka
-- [DoesNotHertz](https://github.com/BirkanG/EE463-Hardware-Project): Birkan Genç, Ali Taşkıran, Erdem Canaz
-- [The Switcher](https://github.com/Grbz25/EE463_Project): Abdülkadir Gürbüz, Alperen Kurşun, Onur Emirhan Çon
-- [SoC](https://github.com/ozgurselenozge/EE463-Hardware-Project): Canberk Kaçan, Selen Özge Özgür, Onat Şimşek
-- [Göklerde Charger Gibiydim](https://github.com/onurtoprak1/EE463_PROJECT): Onur Toprak, Caner Aydın, Çağlar Umut Özten
+- [Battery Voltas](Doruk Yazıcı, Elif Topaloğlu, Erkin Atay Toka): https://github.com/onurtoprak1/EE463_PROJECT
+- [DoesNotHertz](Birkan Genç, Ali Taşkıran, Erdem Canaz): https://github.com/BirkanG/EE463-Hardware-Project
+- [The Switcher](Abdülkadir Gürbüz, Alperen Kurşun, Onur Emirhan Çon): https://github.com/Grbz25/EE463_Project
+- [SoC](Canberk Kaçan, Selen Özge Özgür, Onat Şimşek): https://github.com/ozgurselenozge/EE463-Hardware-Project
+- [Göklerde Charger Gibiydim](Onur Toprak, Caner Aydın, Çağlar Umut Özten): https://github.com/onurtoprak1/EE463_PROJECT
 
 ### 2022 Teams
 
