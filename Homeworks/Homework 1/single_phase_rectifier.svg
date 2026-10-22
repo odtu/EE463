@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="490" viewBox="0 0 800 490" role="img" aria-labelledby="title desc">
+  <title id="title">Single-phase full-bridge diode rectifier with resistive load</title>
+  <desc id="desc">A 230 V RMS, 50 Hz source feeds a four-diode bridge through 0.5 ohm resistance and 0.5 millihenry inductance. The DC load is 100 ohms. No output filter is connected.</desc>
+  <defs>
+    <g id="diode" stroke="#172b40" stroke-width="2.5" fill="white">
+      <path d="M0,-30 V-14 M0,12 V30"/>
+      <path d="M-11,12 L0,-12 L11,12 Z"/>
+      <path d="M-13,-14 H13"/>
+    </g>
+  </defs>
+  <rect width="800" height="490" fill="white"/>
+  <g font-family="Arial, sans-serif" fill="#172b40" font-size="18">
+    <text x="400" y="32" text-anchor="middle" font-size="21" font-weight="bold">Single-phase bridge — resistive load</text>
+    <g stroke="#172b40" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M400,145 V100 H660 V225 M500,145 V100 M400,205 V345 M500,205 V345 M400,405 V430 H660 V305 M500,405 V430"/>
+      <path d="M80,223 V150 H120 M180,150 H230 M290,150 H320 V230 H400"/>
+      <path d="M120,150 a7.5,12 0 0 1 15,0 a7.5,12 0 0 1 15,0 a7.5,12 0 0 1 15,0 a7.5,12 0 0 1 15,0"/>
+      <rect x="230" y="140" width="60" height="20" fill="white"/>
+      <circle cx="80" cy="250" r="27" fill="white"/>
+      <path d="M63,250 C68,230 75,230 80,250 C85,270 92,270 97,250"/>
+      <rect x="650" y="225" width="20" height="80" fill="white"/>
+      <path d="M80,277 V300 H390 M410,300 H500"/>
+      <path d="M390,300 Q400,282 410,300" stroke="white" stroke-width="8"/>
+      <path d="M390,300 Q400,282 410,300"/>
+      <path d="M190,185 H220 M213,180 L220,185 L213,190"/>
+    </g>
+    <use href="#diode" transform="translate(400 175)"/>
+    <use href="#diode" transform="translate(500 175)"/>
+    <use href="#diode" transform="translate(400 375)"/>
+    <use href="#diode" transform="translate(500 375)"/>
+    <g fill="#172b40">
+      <circle cx="400" cy="230" r="4"/><circle cx="500" cy="300" r="4"/>
+      <circle cx="500" cy="100" r="4"/><circle cx="500" cy="430" r="4"/>
+    </g>
+    <text x="150" y="113" text-anchor="middle">Lₛ = 0.5 mH</text>
+    <text x="260" y="113" text-anchor="middle">Rₛ = 0.5 Ω</text>
+    <text x="205" y="213" text-anchor="middle">iᵢₙ</text>
+    <text x="80" y="337" text-anchor="middle">230 V RMS</text>
+    <text x="80" y="361" text-anchor="middle">50 Hz</text>
+    <text x="422" y="180">D₁</text><text x="522" y="180">D₃</text>
+    <text x="422" y="380">D₂</text><text x="522" y="380">D₄</text>
+    <text x="640" y="256" text-anchor="end">R<tspan baseline-shift="sub" font-size="13">load</tspan></text>
+    <text x="640" y="281" text-anchor="end">100 Ω</text>
+    <text x="710" y="118" text-anchor="middle">+</text>
+    <text x="710" y="272" text-anchor="middle">vₒ</text>
+    <text x="710" y="432" text-anchor="middle">−</text>
+    <text x="400" y="471" text-anchor="middle" font-size="15" fill="#526477">Base circuit for Q1(a). Add the output filters as specified in Q1(b)–(e).</text>
+  </g>
+</svg>

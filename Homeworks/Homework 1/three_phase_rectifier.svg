@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="530" viewBox="0 0 900 530" role="img" aria-labelledby="title desc">
+  <title id="title">Three-phase full-bridge diode rectifier with resistive load</title>
+  <desc id="desc">A balanced 400 V line-to-line RMS, 50 Hz supply feeds a six-diode bridge through source resistance and inductance in each phase. Each source resistance is 0.2 ohm and the DC load is 150 ohms. Source inductance is set according to the question. No output capacitor is connected.</desc>
+  <defs>
+    <g id="diode" stroke="#172b40" stroke-width="2.5" fill="white">
+      <path d="M0,-30 V-14 M0,12 V30"/>
+      <path d="M-11,12 L0,-12 L11,12 Z"/>
+      <path d="M-13,-14 H13"/>
+    </g>
+    <g id="phase" stroke="#172b40" stroke-width="2.5" fill="none">
+      <path d="M40,0 H67 M113,0 H145 M195,0 H230 M290,0 H320"/>
+      <circle cx="90" cy="0" r="23" fill="white"/>
+      <path d="M75,0 C80,-16 85,-16 90,0 C95,16 100,16 105,0"/>
+      <rect x="145" y="-9" width="50" height="18" fill="white"/>
+      <path d="M230,0 a7.5,12 0 0 1 15,0 a7.5,12 0 0 1 15,0 a7.5,12 0 0 1 15,0 a7.5,12 0 0 1 15,0"/>
+    </g>
+  </defs>
+  <rect width="900" height="530" fill="white"/>
+  <g font-family="Arial, sans-serif" fill="#172b40" font-size="18">
+    <text x="450" y="32" text-anchor="middle" font-size="21" font-weight="bold">Three-phase bridge — resistive load</text>
+    <text x="450" y="62" text-anchor="middle" font-size="16">Balanced supply: 400 V line-to-line RMS, 50 Hz</text>
+    <g stroke="#172b40" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M40,220 V340 M400,130 V100 H760 V240 M500,130 V100 M600,130 V100"/>
+      <path d="M400,190 V370 M500,190 V370 M600,190 V370"/>
+      <path d="M400,430 V460 H760 V320 M500,430 V460 M600,430 V460"/>
+      <rect x="750" y="240" width="20" height="80" fill="white"/>
+      <path d="M320,220 H400 M320,280 H390 M410,280 H500 M320,340 H390 M410,340 H490 M510,340 H600"/>
+      <path d="M390,280 Q400,262 410,280 M390,340 Q400,322 410,340 M490,340 Q500,322 510,340" stroke="white" stroke-width="8"/>
+      <path d="M390,280 Q400,262 410,280 M390,340 Q400,322 410,340 M490,340 Q500,322 510,340"/>
+    </g>
+    <use href="#phase" transform="translate(0 220)"/>
+    <use href="#phase" transform="translate(0 280)"/>
+    <use href="#phase" transform="translate(0 340)"/>
+    <use href="#diode" transform="translate(400 160)"/>
+    <use href="#diode" transform="translate(500 160)"/>
+    <use href="#diode" transform="translate(600 160)"/>
+    <use href="#diode" transform="translate(400 400)"/>
+    <use href="#diode" transform="translate(500 400)"/>
+    <use href="#diode" transform="translate(600 400)"/>
+    <g fill="#172b40">
+      <circle cx="400" cy="220" r="4"/><circle cx="500" cy="280" r="4"/><circle cx="600" cy="340" r="4"/>
+      <circle cx="500" cy="100" r="4"/><circle cx="600" cy="100" r="4"/>
+      <circle cx="500" cy="460" r="4"/><circle cx="600" cy="460" r="4"/>
+      <circle cx="40" cy="280" r="4"/>
+    </g>
+    <text x="170" y="182" text-anchor="middle">Rₛ</text>
+    <text x="260" y="182" text-anchor="middle">Lₛ</text>
+    <text x="126" y="208">a</text><text x="126" y="268">b</text><text x="126" y="328">c</text>
+    <text x="23" y="286">n</text>
+    <text x="422" y="165">D₁</text><text x="522" y="165">D₃</text><text x="622" y="165">D₅</text>
+    <text x="422" y="405">D₂</text><text x="522" y="405">D₄</text><text x="622" y="405">D₆</text>
+    <text x="200" y="395" text-anchor="middle" font-size="16">Rₛ = 0.2 Ω per phase</text>
+    <text x="200" y="420" text-anchor="middle" font-size="16">Lₛ: as specified in Q2</text>
+    <text x="740" y="272" text-anchor="end">R<tspan baseline-shift="sub" font-size="13">load</tspan></text>
+    <text x="740" y="297" text-anchor="end">150 Ω</text>
+    <text x="810" y="118" text-anchor="middle">+</text>
+    <text x="810" y="287" text-anchor="middle">vₒ</text>
+    <text x="810" y="462" text-anchor="middle">−</text>
+    <text x="450" y="510" text-anchor="middle" font-size="15" fill="#526477">Base circuit for Q2(a)–(b). Connect the capacitor across the load in Q2(c).</text>
+  </g>
+</svg>
