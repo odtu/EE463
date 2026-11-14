@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+test_output/
+*_check.html
+*_check.json
+*.kicad_prl
+*-backups/
