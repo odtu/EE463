@@ -1,0 +1,14 @@
+{
+  "overload": false,
+  "copper_oz": 1,
+  "nets": {
+    "input": ["VIN"],
+    "output": ["VOUT"],
+    "gnd": ["GND"],
+    "sw": ["SW"]
+  },
+  "ignore": ["ASM-SMALL"],
+  "waivers": [
+    {"check": "PWR-MAG", "ref": "L1", "reason": "NTC track under L1 on purpose: it measures the inductor temperature"}
+  ]
+}
