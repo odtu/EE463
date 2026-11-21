@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">Four-switch buck-boost converter</title>
+  <desc id="desc">A 12 to 36 V DC source feeds an input half-bridge made of S1 (high side) and S2 (low side). An inductor L with winding resistance rL connects the input switching node to an output half-bridge made of S3 (low side) and S4 (high side). S4 connects to the output capacitor C and the load resistance.</desc>
+  <defs>
+    <g id="nmos" stroke="#172b40" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0,-30 V-14 H-8 M-8,14 H0 V30"/>
+      <path d="M-8,-18 V18"/>
+      <path d="M-15,-14 V14 M-15,0 H-30"/>
+      <path d="M-8,0 H0 V14"/>
+      <path d="M-3,-4 L-8,0 L-3,4"/>
+    </g>
+  </defs>
+  <rect width="900" height="430" fill="white"/>
+  <g font-family="Arial, sans-serif" fill="#172b40" font-size="18">
+    <text x="450" y="32" text-anchor="middle" font-size="21" font-weight="bold">Four-switch non-inverting buck-boost converter</text>
+    <g stroke="#172b40" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M90,213 V100 H220 V130 M220,190 V270 M220,330 V380"/>
+      <path d="M90,267 V380 H800"/>
+      <circle cx="90" cy="240" r="27" fill="white"/>
+      <path d="M90,221 V233 M84,227 H96 M84,253 H96"/>
+      <path d="M220,240 H320 M380,240 H420 M480,240 H580"/>
+      <path d="M320,240 a7.5,12 0 0 1 15,0 a7.5,12 0 0 1 15,0 a7.5,12 0 0 1 15,0 a7.5,12 0 0 1 15,0"/>
+      <rect x="420" y="230" width="60" height="20" fill="white"/>
+      <path d="M580,130 V100 H800 V200 M580,190 V270 M580,330 V380 M800,280 V380"/>
+      <path d="M680,100 V232 M662,232 H698 M662,248 H698 M680,248 V380"/>
+      <rect x="790" y="200" width="20" height="80" fill="white"/>
+      <path d="M335,270 H365 M358,265 L365,270 L358,275"/>
+    </g>
+    <use href="#nmos" transform="translate(220 160)"/>
+    <use href="#nmos" transform="translate(220 300)"/>
+    <use href="#nmos" transform="translate(580 300)"/>
+    <use href="#nmos" transform="translate(580 160)"/>
+    <g fill="#172b40">
+      <circle cx="220" cy="240" r="4"/><circle cx="580" cy="240" r="4"/>
+      <circle cx="680" cy="100" r="4"/><circle cx="680" cy="380" r="4"/>
+      <circle cx="220" cy="380" r="4"/><circle cx="580" cy="380" r="4"/>
+    </g>
+    <text x="240" y="166">S₁</text>
+    <text x="240" y="306">S₂</text>
+    <text x="600" y="306">S₃</text>
+    <text x="600" y="166">S₄</text>
+    <text x="350" y="215" text-anchor="middle">L</text>
+    <text x="450" y="218" text-anchor="middle">r<tspan baseline-shift="sub" font-size="13">L</tspan></text>
+    <text x="350" y="298" text-anchor="middle">i<tspan baseline-shift="sub" font-size="13">L</tspan></text>
+    <text x="655" y="246" text-anchor="end">C</text>
+    <text x="780" y="246" text-anchor="end">R<tspan baseline-shift="sub" font-size="13">load</tspan></text>
+    <text x="850" y="120" text-anchor="middle">+</text>
+    <text x="850" y="246" text-anchor="middle">vₒ</text>
+    <text x="850" y="376" text-anchor="middle">−</text>
+    <text x="90" y="412" text-anchor="middle">V<tspan baseline-shift="sub" font-size="13">in</tspan> = 12–36 V</text>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="385" viewBox="0 0 800 385" role="img" aria-labelledby="title desc">
+  <title id="title">Boost converter</title>
+  <desc id="desc">A 24 V DC source feeds an inductor L with winding resistance rL. A low-side MOSFET S connects the switching node to ground, and a diode D connects the switching node to the output capacitor C and the load resistance.</desc>
+  <defs>
+    <g id="diode" stroke="#172b40" stroke-width="2.5" fill="white">
+      <path d="M0,-30 V-14 M0,12 V30"/>
+      <path d="M-11,12 L0,-12 L11,12 Z"/>
+      <path d="M-13,-14 H13"/>
+    </g>
+    <g id="nmos" stroke="#172b40" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0,-30 V-14 H-8 M-8,14 H0 V30"/>
+      <path d="M-8,-18 V18"/>
+      <path d="M-15,-14 V14 M-15,0 H-30"/>
+      <path d="M-8,0 H0 V14"/>
+      <path d="M-3,-4 L-8,0 L-3,4"/>
+    </g>
+  </defs>
+  <rect width="800" height="385" fill="white"/>
+  <g font-family="Arial, sans-serif" fill="#172b40" font-size="18">
+    <text x="400" y="32" text-anchor="middle" font-size="21" font-weight="bold">Boost converter</text>
+    <g stroke="#172b40" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M90,203 V120 H130 M190,120 H220 M280,120 H420 M480,120 H680 V190 M680,270 V330"/>
+      <path d="M130,120 a7.5,12 0 0 1 15,0 a7.5,12 0 0 1 15,0 a7.5,12 0 0 1 15,0 a7.5,12 0 0 1 15,0"/>
+      <rect x="220" y="110" width="60" height="20" fill="white"/>
+      <circle cx="90" cy="230" r="27" fill="white"/>
+      <path d="M90,211 V223 M84,217 H96 M84,243 H96"/>
+      <path d="M90,257 V330 H680"/>
+      <path d="M360,120 V200 M360,260 V330"/>
+      <path d="M560,120 V222 M542,222 H578 M542,238 H578 M560,238 V330"/>
+      <rect x="670" y="190" width="20" height="80" fill="white"/>
+      <path d="M145,150 H175 M168,145 L175,150 L168,155"/>
+    </g>
+    <use href="#nmos" transform="translate(360 230)"/>
+    <use href="#diode" transform="translate(450 120) rotate(90)"/>
+    <g fill="#172b40">
+      <circle cx="360" cy="120" r="4"/><circle cx="560" cy="120" r="4"/>
+      <circle cx="360" cy="330" r="4"/><circle cx="560" cy="330" r="4"/>
+    </g>
+    <text x="160" y="95" text-anchor="middle">L</text>
+    <text x="250" y="98" text-anchor="middle">r<tspan baseline-shift="sub" font-size="13">L</tspan></text>
+    <text x="160" y="178" text-anchor="middle">i<tspan baseline-shift="sub" font-size="13">L</tspan></text>
+    <text x="450" y="95" text-anchor="middle">D</text>
+    <text x="380" y="236">S</text>
+    <text x="535" y="236" text-anchor="end">C</text>
+    <text x="660" y="236" text-anchor="end">R<tspan baseline-shift="sub" font-size="13">load</tspan></text>
+    <text x="730" y="140" text-anchor="middle">+</text>
+    <text x="730" y="236" text-anchor="middle">vₒ</text>
+    <text x="730" y="326" text-anchor="middle">−</text>
+    <text x="90" y="362" text-anchor="middle">V<tspan baseline-shift="sub" font-size="13">in</tspan> = 24 V</text>
+  </g>
+</svg>
